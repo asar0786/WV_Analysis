@@ -387,7 +387,7 @@ int main (int ac, char** av) {
       }
       
       //lepton ID/iso/trigger efficiencies
-      //if (WVJJTree->lep1_m == ELE_MASS) {
+      //if (WVJJTree->lep1_m == ELE_MASS) 
       WVJJTree->lep1_idEffWeight = scaleFactor.GetLeptonWeights(WVJJTree->lep1_pt, WVJJTree->lep1_eta, WVJJTree->lep1_m == ELE_MASS ? 11 : 13);
 	//WVJJTree->lep1_idEffWeight = GetSFs_Lepton(WVJJTree->lep1_pt, WVJJTree->lep1_eta, hIDIsoEle);
 	//WVJJTree->lep1_idEffWeight *= GetSFs_Lepton(WVJJTree->lep1_pt,WVJJTree->lep1_eta, hGSFCorrEle);
@@ -494,8 +494,236 @@ int main (int ac, char** av) {
 	//dilepton scale variations
 	
       }
+////////////////////////////////////////////////////////////Modified Block////////////////////////////
+ 
+      goodAK4Jets.clear();
+      AK4Arr->Clear();
+      AK4Br->GetEntry(i);
       
-      // AK8
+      for (int j=0; j<AK4Arr->GetEntries(); j++) {
+	const baconhep::TJet *ak4jet = (baconhep::TJet*)((*AK4Arr)[j]);
+	//if(ak4jet->pt < AK4_PT_VETO_CUT) continue;
+	
+	float jecUnc = GetJECunc(ak4jet->pt, ak4jet->eta, fJetUnc_AK4chs);
+	
+	//jet energy scale variations
+	if ( ak4jet->pt < AK4_PT_CUT && ak4jet->pt*(1.0+jecUnc) < AK4_PT_CUT && ak4jet->pt*(1.0-jecUnc) < AK4_PT_CUT) continue;
+	if (!passAK4JetLoose(ak4jet,era)) continue;
+
+	if (era==2017 && ak4jet->ptRaw < 50 && abs(ak4jet->eta)>2.65 && abs(ak4jet->eta)<3.139) continue;
+	
+	if (abs(ak4jet->eta)<2.4 && ak4jet->pt>30) {
+	  if (era==2016) {
+	    if (ak4jet->csv > CSV_LOOSE_2016) WVJJTree->nBtag_loose++;
+	    if (ak4jet->csv > CSV_MEDIUM_2016) WVJJTree->nBtag_medium++;
+	    if (ak4jet->csv > CSV_TIGHT_2016) WVJJTree->nBtag_tight++;
+	  }
+	  else if (era==2017) {
+	    if (ak4jet->csv > CSV_LOOSE_2017) WVJJTree->nBtag_loose++;
+	    if (ak4jet->csv > CSV_MEDIUM_2017) WVJJTree->nBtag_medium++;
+	    if (ak4jet->csv > CSV_TIGHT_2017) WVJJTree->nBtag_tight++;
+	  }
+	}
+
+	bool isClean=true;
+	// object cleaning
+	
+//*	if (nGoodFatJet>0) {
+      for (int j=0; j<PuppiAK8Arr->GetEntries(); j++) {
+        const baconhep::TJet *ak8jet = (baconhep::TJet*)((*PuppiAK8Arr)[j]);
+        const baconhep::TAddJet *ak8addjet = (baconhep::TAddJet*)((*PuppiAK8AddArr)[j]);
+
+        if ( ak8jet->pt < AK8_MIN_PT ||  fabs(ak8jet->eta) > AK8_MAX_ETA ) continue;
+	  if (deltaR(ak8jet->eta, ak8jet->phi,
+		     ak4jet->eta, ak4jet->phi) < AK4_AK8_DR_CUT) {
+	    isClean = false;
+	  }
+	}
+	
+	for ( std::size_t k=0; k<goodAK4Jets.size(); k++) {
+	  if (deltaR(goodAK4Jets.at(k).Eta(), goodAK4Jets.at(k).Phi(),
+		     ak4jet->eta, ak4jet->phi) < AK4_DR_CUT) {
+	    isClean = false;
+	  }
+	}
+
+	for ( std::size_t k=0; k<tightEle.size(); k++) {
+	  if (deltaR(tightEle.at(k).Eta(), tightEle.at(k).Phi(),
+		     ak4jet->eta,   ak4jet->phi) < AK4_DR_CUT) {
+	    isClean = false;
+	  }
+	}
+	for ( std::size_t k=0; k<tightMuon.size(); k++) {
+	  if (deltaR(tightMuon.at(k).Eta(), tightMuon.at(k).Phi(),
+		     ak4jet->eta,   ak4jet->phi) < AK4_DR_CUT) {
+	    isClean = false;
+	  }
+	}
+	
+	if ( isClean == false ) continue;
+	
+	if (ak4jet->pt>30) WVJJTree->nJet30++;
+	if (ak4jet->pt>50) WVJJTree->nJet50++;
+
+	goodAK4Jets.push_back(TLorentzVector(0,0,0,0));
+	goodAK4Jets.back().SetPtEtaPhiM(ak4jet->pt, ak4jet->eta, ak4jet->phi, ak4jet->mass);
+	
+      }
+      
+      int nGoodDijet=0;
+      
+      
+      float tmpMassMax = 0.0;
+      int vbf1=-1, vbf2=-1;
+      uint vbf_1=1000,vbf_2= 2000;
+      for (uint j=0; j<goodAK4Jets.size(); j++) {
+//	if (j==sel1 || j==sel2) continue;
+	for(uint k=j+1; k<goodAK4Jets.size(); k++) {
+//	  if (k==sel1 || k==sel2) continue;
+	  TLorentzVector tempVBF = goodAK4Jets.at(j) + goodAK4Jets.at(k);
+	  //require 2 jets be in opposite hemispheres
+	  if ( goodAK4Jets.at(j).Eta()*goodAK4Jets.at(k).Eta() > 0 ) continue; 
+	  if ( tempVBF.M() < VBF_MJJ_CUT ) continue;
+	  if ( tempVBF.M() < tmpMassMax ) continue;
+	  tmpMassMax = tempVBF.M();
+	  vbf1=j; vbf2=k;
+	  vbf_1=j; vbf_2=k;
+	}
+      }
+      
+      if (vbf1==-1 && vbf2==-1) continue;
+      
+      TLorentzVector tempVBF = goodAK4Jets.at(vbf1) + goodAK4Jets.at(vbf2);
+      
+      WVJJTree->vbf1_AK4_pt = goodAK4Jets.at(vbf1).Pt();
+      WVJJTree->vbf1_AK4_eta = goodAK4Jets.at(vbf1).Eta();
+      WVJJTree->vbf1_AK4_phi = goodAK4Jets.at(vbf1).Phi();
+      WVJJTree->vbf1_AK4_m = goodAK4Jets.at(vbf1).M();
+      
+      WVJJTree->vbf2_AK4_pt = goodAK4Jets.at(vbf2).Pt();
+      WVJJTree->vbf2_AK4_eta = goodAK4Jets.at(vbf2).Eta();
+      WVJJTree->vbf2_AK4_phi = goodAK4Jets.at(vbf2).Phi();
+      WVJJTree->vbf2_AK4_m = goodAK4Jets.at(vbf2).M();
+      
+      WVJJTree->vbf_pt = tempVBF.Pt();
+      WVJJTree->vbf_eta = tempVBF.Eta();
+      WVJJTree->vbf_phi = tempVBF.Phi();
+      WVJJTree->vbf_m = tempVBF.M();
+      
+      WVJJTree->vbf_deta = abs( WVJJTree->vbf2_AK4_eta - WVJJTree->vbf1_AK4_eta );
+      
+      TLorentzVector tempVBF1(0,0,0,0);
+      TLorentzVector tempVBF2(0,0,0,0);
+      
+      float jecUnc1 = GetJECunc(WVJJTree->vbf1_AK4_pt, WVJJTree->vbf1_AK4_eta, fJetUnc_AK4chs);
+      float jecUnc2 = GetJECunc(WVJJTree->vbf2_AK4_pt, WVJJTree->vbf2_AK4_eta, fJetUnc_AK4chs);
+      
+      WVJJTree->vbf1_AK4_pt_scaleUp = WVJJTree->vbf1_AK4_pt*(1.0+jecUnc1);
+      WVJJTree->vbf1_AK4_pt_scaleDn = WVJJTree->vbf1_AK4_pt*(1.0-jecUnc1);
+      WVJJTree->vbf1_AK4_m_scaleUp = WVJJTree->vbf1_AK4_m*(1.0+jecUnc1);
+      WVJJTree->vbf1_AK4_m_scaleDn = WVJJTree->vbf1_AK4_m*(1.0-jecUnc1);
+      
+      WVJJTree->vbf2_AK4_pt_scaleUp = WVJJTree->vbf2_AK4_pt*(1.0+jecUnc2);
+      WVJJTree->vbf2_AK4_pt_scaleDn = WVJJTree->vbf2_AK4_pt*(1.0-jecUnc2);
+      WVJJTree->vbf2_AK4_m_scaleUp = WVJJTree->vbf2_AK4_m*(1.0+jecUnc2);
+      WVJJTree->vbf2_AK4_m_scaleDn = WVJJTree->vbf2_AK4_m*(1.0-jecUnc2);
+      
+      tempVBF1.SetPtEtaPhiM(WVJJTree->vbf1_AK4_pt_scaleUp, WVJJTree->vbf1_AK4_eta,
+			    WVJJTree->vbf1_AK4_phi, WVJJTree->vbf1_AK4_m_scaleUp);
+      tempVBF2.SetPtEtaPhiM(WVJJTree->vbf2_AK4_pt_scaleUp, WVJJTree->vbf2_AK4_eta,
+			    WVJJTree->vbf2_AK4_phi, WVJJTree->vbf2_AK4_m_scaleUp);
+      
+      WVJJTree->vbf_pt_scaleUp = (tempVBF1+tempVBF2).Pt();
+      WVJJTree->vbf_m_scaleUp = (tempVBF1+tempVBF2).M();
+      
+      tempVBF1.SetPtEtaPhiM(WVJJTree->vbf1_AK4_pt_scaleDn, WVJJTree->vbf1_AK4_eta,
+			    WVJJTree->vbf1_AK4_phi, WVJJTree->vbf1_AK4_m_scaleDn);
+      tempVBF2.SetPtEtaPhiM(WVJJTree->vbf2_AK4_pt_scaleDn, WVJJTree->vbf2_AK4_eta,
+			    WVJJTree->vbf2_AK4_phi, WVJJTree->vbf2_AK4_m_scaleDn);
+      
+      WVJJTree->vbf_pt_scaleDn = (tempVBF1+tempVBF2).Pt();
+      WVJJTree->vbf_m_scaleDn = (tempVBF1+tempVBF2).M();
+ 
+      uint sel1=1000, sel2=1000;
+//Asar      if (nGoodFatJet==0) 
+      if (PuppiAK8Arr->GetEntries()==0) {
+	TLorentzVector tmpV1, tmpV2;
+	float dmW=3000.0;
+	for (uint j=0; j<goodAK4Jets.size(); j++) {
+      	if (j==vbf_1 || j==vbf_2) continue;
+	  if ( fabs(goodAK4Jets.at(j).Eta()) > AK4_ETA_CUT ) continue;
+	  for(uint k=j+1; k<goodAK4Jets.size(); k++) {
+	      if (k==vbf_1 || k==vbf_2) continue;
+	    if ( fabs(goodAK4Jets.at(k).Eta()) > AK4_ETA_CUT ) continue;
+	    TLorentzVector tmpV=goodAK4Jets.at(j)+goodAK4Jets.at(k);
+	    
+	    if (tmpV.M()<AK4_JJ_MIN_M || tmpV.M()>AK4_JJ_MAX_M) continue;
+
+	    if (fabs(tmpV.M()-W_MASS)>dmW) continue;
+	      
+	    WVJJTree->bos_j1_AK4_pt =  goodAK4Jets.at(j).Pt();
+	    WVJJTree->bos_j1_AK4_eta = goodAK4Jets.at(j).Eta();
+	    WVJJTree->bos_j1_AK4_phi = goodAK4Jets.at(j).Phi();
+	    WVJJTree->bos_j1_AK4_m =   goodAK4Jets.at(j).M();
+	    
+	    WVJJTree->bos_j2_AK4_pt =  goodAK4Jets.at(k).Pt();
+	    WVJJTree->bos_j2_AK4_eta = goodAK4Jets.at(k).Eta();
+	    WVJJTree->bos_j2_AK4_phi = goodAK4Jets.at(k).Phi();
+	    WVJJTree->bos_j2_AK4_m =   goodAK4Jets.at(k).M();
+	    
+	    WVJJTree->bos_AK4AK4_pt =  tmpV.Pt();
+	    WVJJTree->bos_AK4AK4_eta = tmpV.Eta();
+	    WVJJTree->bos_AK4AK4_phi = tmpV.Phi();
+	    WVJJTree->bos_AK4AK4_m =   tmpV.M();
+	    
+//	    sel1=j; sel2=k;
+	    dmW=fabs(tmpV.M()-W_MASS);
+	    nGoodDijet=1;
+	      
+	  }
+	}
+	
+	if (nGoodDijet==0) continue;
+	
+	float jecUnc1 = GetJECunc(WVJJTree->bos_j1_AK4_pt, WVJJTree->bos_j1_AK4_eta, fJetUnc_AK4chs);
+	float jecUnc2 = GetJECunc(WVJJTree->bos_j2_AK4_pt, WVJJTree->bos_j2_AK4_eta, fJetUnc_AK4chs);
+	
+	WVJJTree->bos_j1_AK4_pt_scaleUp = WVJJTree->bos_j1_AK4_pt*(1.0+jecUnc1);
+	WVJJTree->bos_j1_AK4_pt_scaleDn = WVJJTree->bos_j1_AK4_pt*(1.0-jecUnc1);
+	WVJJTree->bos_j1_AK4_m_scaleUp = WVJJTree->bos_j1_AK4_m*(1.0+jecUnc1);
+	WVJJTree->bos_j1_AK4_m_scaleDn = WVJJTree->bos_j1_AK4_m*(1.0-jecUnc1);
+	
+	WVJJTree->bos_j2_AK4_pt_scaleUp = WVJJTree->bos_j2_AK4_pt*(1.0+jecUnc2);
+	WVJJTree->bos_j2_AK4_pt_scaleDn = WVJJTree->bos_j2_AK4_pt*(1.0-jecUnc2);
+	WVJJTree->bos_j2_AK4_m_scaleUp = WVJJTree->bos_j2_AK4_m*(1.0+jecUnc2);
+	WVJJTree->bos_j2_AK4_m_scaleDn = WVJJTree->bos_j2_AK4_m*(1.0-jecUnc2);
+	
+	TLorentzVector tempBos1(0,0,0,0);
+	TLorentzVector tempBos2(0,0,0,0);
+	
+	tempBos1.SetPtEtaPhiM(WVJJTree->bos_j1_AK4_pt_scaleUp, WVJJTree->bos_j1_AK4_eta,
+			      WVJJTree->bos_j1_AK4_phi, WVJJTree->bos_j1_AK4_m_scaleUp);
+	tempBos2.SetPtEtaPhiM(WVJJTree->bos_j2_AK4_pt_scaleUp, WVJJTree->bos_j2_AK4_eta,
+			      WVJJTree->bos_j2_AK4_phi, WVJJTree->bos_j2_AK4_m_scaleUp);
+	
+	WVJJTree->bos_AK4AK4_pt_scaleUp = (tempBos1+tempBos2).Pt();
+	WVJJTree->bos_AK4AK4_m_scaleUp = (tempBos1+tempBos2).M();
+	
+	tempBos1.SetPtEtaPhiM(WVJJTree->bos_j1_AK4_pt_scaleDn, WVJJTree->bos_j1_AK4_eta,
+			      WVJJTree->bos_j1_AK4_phi, WVJJTree->bos_j1_AK4_m_scaleDn);
+	tempBos2.SetPtEtaPhiM(WVJJTree->bos_j2_AK4_pt_scaleDn, WVJJTree->bos_j2_AK4_eta,
+			      WVJJTree->bos_j2_AK4_phi, WVJJTree->bos_j2_AK4_m_scaleDn);
+	
+	WVJJTree->bos_AK4AK4_pt_scaleDn = (tempBos1+tempBos2).Pt();
+	WVJJTree->bos_AK4AK4_m_scaleDn = (tempBos1+tempBos2).M();
+	
+      } //if (nGoodFatJet==0)
+      
+      //check we have a hadronic boson candidate
+//Asar      if ( nGoodFatJet == 0 && nGoodDijet == 0 ) continue;
+
+     
+////////////////////// AK8
       
       PuppiAK8Arr->Clear();
       puppiAK8Br->GetEntry(i);
@@ -560,222 +788,7 @@ int main (int ac, char** av) {
 	dmW = fabs(ak8addjet->mass_sd0 - W_MASS);
 	nGoodFatJet++;
       }
-      
-      goodAK4Jets.clear();
-      AK4Arr->Clear();
-      AK4Br->GetEntry(i);
-      
-      for (int j=0; j<AK4Arr->GetEntries(); j++) {
-	const baconhep::TJet *ak4jet = (baconhep::TJet*)((*AK4Arr)[j]);
-	//if(ak4jet->pt < AK4_PT_VETO_CUT) continue;
-	
-	float jecUnc = GetJECunc(ak4jet->pt, ak4jet->eta, fJetUnc_AK4chs);
-	
-	//jet energy scale variations
-	if ( ak4jet->pt < AK4_PT_CUT && ak4jet->pt*(1.0+jecUnc) < AK4_PT_CUT && ak4jet->pt*(1.0-jecUnc) < AK4_PT_CUT) continue;
-	if (!passAK4JetLoose(ak4jet,era)) continue;
-
-	if (era==2017 && ak4jet->ptRaw < 50 && abs(ak4jet->eta)>2.65 && abs(ak4jet->eta)<3.139) continue;
-	
-	if (abs(ak4jet->eta)<2.4 && ak4jet->pt>30) {
-	  if (era==2016) {
-	    if (ak4jet->csv > CSV_LOOSE_2016) WVJJTree->nBtag_loose++;
-	    if (ak4jet->csv > CSV_MEDIUM_2016) WVJJTree->nBtag_medium++;
-	    if (ak4jet->csv > CSV_TIGHT_2016) WVJJTree->nBtag_tight++;
-	  }
-	  else if (era==2017) {
-	    if (ak4jet->csv > CSV_LOOSE_2017) WVJJTree->nBtag_loose++;
-	    if (ak4jet->csv > CSV_MEDIUM_2017) WVJJTree->nBtag_medium++;
-	    if (ak4jet->csv > CSV_TIGHT_2017) WVJJTree->nBtag_tight++;
-	  }
-	}
-
-	bool isClean=true;
-	// object cleaning
-	
-	if (nGoodFatJet>0) {
-	  if (deltaR(WVJJTree->bos_PuppiAK8_eta, WVJJTree->bos_PuppiAK8_phi,
-		     ak4jet->eta, ak4jet->phi) < AK4_AK8_DR_CUT) {
-	    isClean = false;
-	  }
-	}
-	
-	for ( std::size_t k=0; k<goodAK4Jets.size(); k++) {
-	  if (deltaR(goodAK4Jets.at(k).Eta(), goodAK4Jets.at(k).Phi(),
-		     ak4jet->eta, ak4jet->phi) < AK4_DR_CUT) {
-	    isClean = false;
-	  }
-	}
-	for ( std::size_t k=0; k<tightEle.size(); k++) {
-	  if (deltaR(tightEle.at(k).Eta(), tightEle.at(k).Phi(),
-		     ak4jet->eta,   ak4jet->phi) < AK4_DR_CUT) {
-	    isClean = false;
-	  }
-	}
-	for ( std::size_t k=0; k<tightMuon.size(); k++) {
-	  if (deltaR(tightMuon.at(k).Eta(), tightMuon.at(k).Phi(),
-		     ak4jet->eta,   ak4jet->phi) < AK4_DR_CUT) {
-	    isClean = false;
-	  }
-	}
-	
-	if ( isClean == false ) continue;
-	
-	if (ak4jet->pt>30) WVJJTree->nJet30++;
-	if (ak4jet->pt>50) WVJJTree->nJet50++;
-
-	goodAK4Jets.push_back(TLorentzVector(0,0,0,0));
-	goodAK4Jets.back().SetPtEtaPhiM(ak4jet->pt, ak4jet->eta, ak4jet->phi, ak4jet->mass);
-	
-      }
-      
-      int nGoodDijet=0;
-      
-      uint sel1=1000, sel2=1000;
-      if (nGoodFatJet==0) {
-	TLorentzVector tmpV1, tmpV2;
-	dmW=3000.0;
-	for (uint j=0; j<goodAK4Jets.size(); j++) {
-	  if ( fabs(goodAK4Jets.at(j).Eta()) > AK4_ETA_CUT ) continue;
-	  for(uint k=j+1; k<goodAK4Jets.size(); k++) {
-	    if ( fabs(goodAK4Jets.at(k).Eta()) > AK4_ETA_CUT ) continue;
-	    TLorentzVector tmpV=goodAK4Jets.at(j)+goodAK4Jets.at(k);
-	    
-	    if (tmpV.M()<AK4_JJ_MIN_M || tmpV.M()>AK4_JJ_MAX_M) continue;
-
-	    if (fabs(tmpV.M()-W_MASS)>dmW) continue;
-	      
-	    WVJJTree->bos_j1_AK4_pt =  goodAK4Jets.at(j).Pt();
-	    WVJJTree->bos_j1_AK4_eta = goodAK4Jets.at(j).Eta();
-	    WVJJTree->bos_j1_AK4_phi = goodAK4Jets.at(j).Phi();
-	    WVJJTree->bos_j1_AK4_m =   goodAK4Jets.at(j).M();
-	    
-	    WVJJTree->bos_j2_AK4_pt =  goodAK4Jets.at(k).Pt();
-	    WVJJTree->bos_j2_AK4_eta = goodAK4Jets.at(k).Eta();
-	    WVJJTree->bos_j2_AK4_phi = goodAK4Jets.at(k).Phi();
-	    WVJJTree->bos_j2_AK4_m =   goodAK4Jets.at(k).M();
-	    
-	    WVJJTree->bos_AK4AK4_pt =  tmpV.Pt();
-	    WVJJTree->bos_AK4AK4_eta = tmpV.Eta();
-	    WVJJTree->bos_AK4AK4_phi = tmpV.Phi();
-	    WVJJTree->bos_AK4AK4_m =   tmpV.M();
-	    
-	    sel1=j; sel2=k;
-	    dmW=fabs(tmpV.M()-W_MASS);
-	    nGoodDijet=1;
-	      
-	  }
-	}
-	
-	if (nGoodDijet==0) continue;
-	
-	float jecUnc1 = GetJECunc(WVJJTree->bos_j1_AK4_pt, WVJJTree->bos_j1_AK4_eta, fJetUnc_AK4chs);
-	float jecUnc2 = GetJECunc(WVJJTree->bos_j2_AK4_pt, WVJJTree->bos_j2_AK4_eta, fJetUnc_AK4chs);
-	
-	WVJJTree->bos_j1_AK4_pt_scaleUp = WVJJTree->bos_j1_AK4_pt*(1.0+jecUnc1);
-	WVJJTree->bos_j1_AK4_pt_scaleDn = WVJJTree->bos_j1_AK4_pt*(1.0-jecUnc1);
-	WVJJTree->bos_j1_AK4_m_scaleUp = WVJJTree->bos_j1_AK4_m*(1.0+jecUnc1);
-	WVJJTree->bos_j1_AK4_m_scaleDn = WVJJTree->bos_j1_AK4_m*(1.0-jecUnc1);
-	
-	WVJJTree->bos_j2_AK4_pt_scaleUp = WVJJTree->bos_j2_AK4_pt*(1.0+jecUnc2);
-	WVJJTree->bos_j2_AK4_pt_scaleDn = WVJJTree->bos_j2_AK4_pt*(1.0-jecUnc2);
-	WVJJTree->bos_j2_AK4_m_scaleUp = WVJJTree->bos_j2_AK4_m*(1.0+jecUnc2);
-	WVJJTree->bos_j2_AK4_m_scaleDn = WVJJTree->bos_j2_AK4_m*(1.0-jecUnc2);
-	
-	TLorentzVector tempBos1(0,0,0,0);
-	TLorentzVector tempBos2(0,0,0,0);
-	
-	tempBos1.SetPtEtaPhiM(WVJJTree->bos_j1_AK4_pt_scaleUp, WVJJTree->bos_j1_AK4_eta,
-			      WVJJTree->bos_j1_AK4_phi, WVJJTree->bos_j1_AK4_m_scaleUp);
-	tempBos2.SetPtEtaPhiM(WVJJTree->bos_j2_AK4_pt_scaleUp, WVJJTree->bos_j2_AK4_eta,
-			      WVJJTree->bos_j2_AK4_phi, WVJJTree->bos_j2_AK4_m_scaleUp);
-	
-	WVJJTree->bos_AK4AK4_pt_scaleUp = (tempBos1+tempBos2).Pt();
-	WVJJTree->bos_AK4AK4_m_scaleUp = (tempBos1+tempBos2).M();
-	
-	tempBos1.SetPtEtaPhiM(WVJJTree->bos_j1_AK4_pt_scaleDn, WVJJTree->bos_j1_AK4_eta,
-			      WVJJTree->bos_j1_AK4_phi, WVJJTree->bos_j1_AK4_m_scaleDn);
-	tempBos2.SetPtEtaPhiM(WVJJTree->bos_j2_AK4_pt_scaleDn, WVJJTree->bos_j2_AK4_eta,
-			      WVJJTree->bos_j2_AK4_phi, WVJJTree->bos_j2_AK4_m_scaleDn);
-	
-	WVJJTree->bos_AK4AK4_pt_scaleDn = (tempBos1+tempBos2).Pt();
-	WVJJTree->bos_AK4AK4_m_scaleDn = (tempBos1+tempBos2).M();
-	
-      } //if (nGoodFatJet==0)
-      
-      //check we have a hadronic boson candidate
-      if ( nGoodFatJet == 0 && nGoodDijet == 0 ) continue;
-      
-      float tmpMassMax = 0.0;
-      int vbf1=-1, vbf2=-1;
-      
-      for (uint j=0; j<goodAK4Jets.size(); j++) {
-	if (j==sel1 || j==sel2) continue;
-	for(uint k=j+1; k<goodAK4Jets.size(); k++) {
-	  if (k==sel1 || k==sel2) continue;
-	  TLorentzVector tempVBF = goodAK4Jets.at(j) + goodAK4Jets.at(k);
-	  //require 2 jets be in opposite hemispheres
-	  if ( goodAK4Jets.at(j).Eta()*goodAK4Jets.at(k).Eta() > 0 ) continue; 
-	  if ( tempVBF.M() < VBF_MJJ_CUT ) continue;
-	  if ( tempVBF.M() < tmpMassMax ) continue;
-	  tmpMassMax = tempVBF.M();
-	  vbf1=j; vbf2=k;
-	}
-      }
-      
-      if (vbf1==-1 && vbf2==-1) continue;
-      
-      TLorentzVector tempVBF = goodAK4Jets.at(vbf1) + goodAK4Jets.at(vbf2);
-      
-      WVJJTree->vbf1_AK4_pt = goodAK4Jets.at(vbf1).Pt();
-      WVJJTree->vbf1_AK4_eta = goodAK4Jets.at(vbf1).Eta();
-      WVJJTree->vbf1_AK4_phi = goodAK4Jets.at(vbf1).Phi();
-      WVJJTree->vbf1_AK4_m = goodAK4Jets.at(vbf1).M();
-      
-      WVJJTree->vbf2_AK4_pt = goodAK4Jets.at(vbf2).Pt();
-      WVJJTree->vbf2_AK4_eta = goodAK4Jets.at(vbf2).Eta();
-      WVJJTree->vbf2_AK4_phi = goodAK4Jets.at(vbf2).Phi();
-      WVJJTree->vbf2_AK4_m = goodAK4Jets.at(vbf2).M();
-      
-      WVJJTree->vbf_pt = tempVBF.Pt();
-      WVJJTree->vbf_eta = tempVBF.Eta();
-      WVJJTree->vbf_phi = tempVBF.Phi();
-      WVJJTree->vbf_m = tempVBF.M();
-      
-      WVJJTree->vbf_deta = abs( WVJJTree->vbf2_AK4_eta - WVJJTree->vbf1_AK4_eta );
-      
-      TLorentzVector tempVBF1(0,0,0,0);
-      TLorentzVector tempVBF2(0,0,0,0);
-      
-      float jecUnc1 = GetJECunc(WVJJTree->vbf1_AK4_pt, WVJJTree->vbf1_AK4_eta, fJetUnc_AK4chs);
-      float jecUnc2 = GetJECunc(WVJJTree->vbf2_AK4_pt, WVJJTree->vbf2_AK4_eta, fJetUnc_AK4chs);
-      
-      WVJJTree->vbf1_AK4_pt_scaleUp = WVJJTree->vbf1_AK4_pt*(1.0+jecUnc1);
-      WVJJTree->vbf1_AK4_pt_scaleDn = WVJJTree->vbf1_AK4_pt*(1.0-jecUnc1);
-      WVJJTree->vbf1_AK4_m_scaleUp = WVJJTree->vbf1_AK4_m*(1.0+jecUnc1);
-      WVJJTree->vbf1_AK4_m_scaleDn = WVJJTree->vbf1_AK4_m*(1.0-jecUnc1);
-      
-      WVJJTree->vbf2_AK4_pt_scaleUp = WVJJTree->vbf2_AK4_pt*(1.0+jecUnc2);
-      WVJJTree->vbf2_AK4_pt_scaleDn = WVJJTree->vbf2_AK4_pt*(1.0-jecUnc2);
-      WVJJTree->vbf2_AK4_m_scaleUp = WVJJTree->vbf2_AK4_m*(1.0+jecUnc2);
-      WVJJTree->vbf2_AK4_m_scaleDn = WVJJTree->vbf2_AK4_m*(1.0-jecUnc2);
-      
-      tempVBF1.SetPtEtaPhiM(WVJJTree->vbf1_AK4_pt_scaleUp, WVJJTree->vbf1_AK4_eta,
-			    WVJJTree->vbf1_AK4_phi, WVJJTree->vbf1_AK4_m_scaleUp);
-      tempVBF2.SetPtEtaPhiM(WVJJTree->vbf2_AK4_pt_scaleUp, WVJJTree->vbf2_AK4_eta,
-			    WVJJTree->vbf2_AK4_phi, WVJJTree->vbf2_AK4_m_scaleUp);
-      
-      WVJJTree->vbf_pt_scaleUp = (tempVBF1+tempVBF2).Pt();
-      WVJJTree->vbf_m_scaleUp = (tempVBF1+tempVBF2).M();
-      
-      tempVBF1.SetPtEtaPhiM(WVJJTree->vbf1_AK4_pt_scaleDn, WVJJTree->vbf1_AK4_eta,
-			    WVJJTree->vbf1_AK4_phi, WVJJTree->vbf1_AK4_m_scaleDn);
-      tempVBF2.SetPtEtaPhiM(WVJJTree->vbf2_AK4_pt_scaleDn, WVJJTree->vbf2_AK4_eta,
-			    WVJJTree->vbf2_AK4_phi, WVJJTree->vbf2_AK4_m_scaleDn);
-      
-      WVJJTree->vbf_pt_scaleDn = (tempVBF1+tempVBF2).Pt();
-      WVJJTree->vbf_m_scaleDn = (tempVBF1+tempVBF2).M();
-      
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////     
       TLorentzVector bosHad(0,0,0,0), bosHad_up(0,0,0,0), bosHad_dn(0,0,0,0);
       TLorentzVector bosLep(0,0,0,0), bosLep_up(0,0,0,0), bosLep_dn(0,0,0,0);
       
