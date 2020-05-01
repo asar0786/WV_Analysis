@@ -584,7 +584,7 @@ int main (int ac, char** av) {
 	  TLorentzVector tempVBF = goodAK4Jets.at(j) + goodAK4Jets.at(k);
 	  //require 2 jets be in opposite hemispheres
 	  if ( goodAK4Jets.at(j).Eta()*goodAK4Jets.at(k).Eta() > 0 ) continue; 
-	  if( fabs( goodAK4Jets.at(j).Eta()-goodAK4Jets.at(k).Eta() ) < 4.8) continue; 
+//	  if( fabs( goodAK4Jets.at(j).Eta()-goodAK4Jets.at(k).Eta() ) < 4.8) continue; 
 //	  dEtajj = fabs( goodAK4Jets.at(j).Eta()-goodAK4Jets.at(k).Eta()); 
 	  if ( tempVBF.M() < VBF_MJJ_CUT ) continue;
 	  if ( tempVBF.M() < tmpMassMax ) continue;
