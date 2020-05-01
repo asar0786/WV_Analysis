@@ -528,6 +528,7 @@ int main (int ac, char** av) {
 	bool isClean=true;
 	// object cleaning
 	
+//*	if (nGoodFatJet>0) {
       for (int j=0; j<PuppiAK8Arr->GetEntries(); j++) {
         const baconhep::TJet *ak8jet = (baconhep::TJet*)((*PuppiAK8Arr)[j]);
         const baconhep::TAddJet *ak8addjet = (baconhep::TAddJet*)((*PuppiAK8AddArr)[j]);
@@ -567,7 +568,7 @@ int main (int ac, char** av) {
 	goodAK4Jets.push_back(TLorentzVector(0,0,0,0));
 	goodAK4Jets.back().SetPtEtaPhiM(ak4jet->pt, ak4jet->eta, ak4jet->phi, ak4jet->mass);
 	}
-//      }//GoodAK4Jets Arrey filled
+      }//GoodAK4Jets Arrey filled
       
 //////////////////////////////////////VBF Selection Starts///////////////////////////////
       int nGoodDijet=0;
@@ -595,6 +596,7 @@ int main (int ac, char** av) {
       }
       
       if (vbf1==-1 && vbf2==-1) continue;
+//	if ( dEtajj > 2.4 ){ 
   			{    
       TLorentzVector tempVBF = goodAK4Jets.at(vbf1) + goodAK4Jets.at(vbf2);
       
@@ -648,74 +650,11 @@ int main (int ac, char** av) {
       WVJJTree->vbf_m_scaleDn = (tempVBF1+tempVBF2).M();
 	}//VBF Block Finished
 
-////////////////////// AK8
-      
-      PuppiAK8Arr->Clear();
-      puppiAK8Br->GetEntry(i);
-      PuppiAK8AddArr->Clear();
-      puppiAK8AddBr->GetEntry(i);
-      
-      float dmW = 3000.0;
-      int nGoodFatJet=0;
-      
-      for (int j=0; j<PuppiAK8Arr->GetEntries(); j++) {
-	const baconhep::TJet *ak8jet = (baconhep::TJet*)((*PuppiAK8Arr)[j]);
-	const baconhep::TAddJet *ak8addjet = (baconhep::TAddJet*)((*PuppiAK8AddArr)[j]);
-	
-	if ( ak8jet->pt < AK8_MIN_PT ||  fabs(ak8jet->eta) > AK8_MAX_ETA ) continue;
-	
-	float jecUnc = GetJECunc(ak8jet->pt, ak8jet->eta, fJetUnc_AK8puppi);
-	
-	if ( ak8addjet->mass_sd0 < AK8_MIN_SDM || ak8addjet->mass_sd0 > AK8_MAX_SDM ) continue;
-	if ( fabs(ak8addjet->mass_sd0 - W_MASS) > dmW ) continue;
-	
-	bool isClean=true;
-	//lepton cleaning
-	for ( std::size_t k=0; k<tightEle.size(); k++) {
-	  if (deltaR(tightEle.at(k).Eta(), tightEle.at(k).Phi(),
-		     ak8jet->eta, ak8jet->phi) < AK8_LEP_DR_CUT)
-	    isClean = false;
-	}
-	for ( std::size_t k=0; k<tightMuon.size(); k++) {
-	  if (deltaR(tightMuon.at(k).Eta(), tightMuon.at(k).Phi(),
-		     ak8jet->eta, ak8jet->phi) < AK8_LEP_DR_CUT)
-	    isClean = false;
-	}
-	if ( isClean == false ) continue;
-	
-	WVJJTree->bos_PuppiAK8_m_sd0 = ak8addjet->mass_sd0;
-	WVJJTree->bos_PuppiAK8_m_sd0_corr = 
-	  ak8addjet->mass_sd0 * getPUPPIweight(puppisd_corrGEN, puppisd_corrRECO_cen, puppisd_corrRECO_for,
-					       ak8jet->pt, ak8jet->eta);
-	WVJJTree->bos_PuppiAK8_tau2tau1 = ak8addjet->tau2/ak8addjet->tau1;
-	WVJJTree->bos_PuppiAK8_pt = ak8jet->pt;
-	WVJJTree->bos_PuppiAK8_eta = ak8jet->eta;
-	WVJJTree->bos_PuppiAK8_phi = ak8jet->phi;
-	
-	WVJJTree->bos_PuppiAK8_m_sd0_corr_scaleUp =  WVJJTree->bos_PuppiAK8_m_sd0_corr*(1.0+jecUnc);
-	WVJJTree->bos_PuppiAK8_m_sd0_corr_scaleDn =  WVJJTree->bos_PuppiAK8_m_sd0_corr*(1.0-jecUnc);
-	WVJJTree->bos_PuppiAK8_pt_scaleUp =  WVJJTree->bos_PuppiAK8_pt*(1.0+jecUnc);
-	WVJJTree->bos_PuppiAK8_pt_scaleDn =  WVJJTree->bos_PuppiAK8_pt*(1.0-jecUnc);
-
-	WVJJTree->bos_PuppiAK8_e2_sdb1 = ak8addjet->e2_sdb1;
-	WVJJTree->bos_PuppiAK8_e3_sdb1 = ak8addjet->e3_sdb1;
-	WVJJTree->bos_PuppiAK8_e3_v1_sdb1 = ak8addjet->e3_v1_sdb1;
-	WVJJTree->bos_PuppiAK8_e3_v2_sdb1 = ak8addjet->e3_v2_sdb1;
-	WVJJTree->bos_PuppiAK8_e4_v1_sdb1 = ak8addjet->e4_v1_sdb1;
-	WVJJTree->bos_PuppiAK8_e4_v2_sdb1 = ak8addjet->e4_v2_sdb1;
-	//WVJJTree->bos_PuppiAK8_e2_sdb2 = ak8addjet->e2_sdb2;
-	//WVJJTree->bos_PuppiAK8_e3_sdb2 = ak8addjet->e3_sdb2;
-	//WVJJTree->bos_PuppiAK8_e3_v1_sdb2 = ak8addjet->e3_v1_sdb2;
-	//WVJJTree->bos_PuppiAK8_e3_v2_sdb2 = ak8addjet->e3_v2_sdb2;
-	//WVJJTree->bos_PuppiAK8_e4_v1_sdb2 = ak8addjet->e4_v1_sdb2;
-	//WVJJTree->bos_PuppiAK8_e4_v2_sdb2 = ak8addjet->e4_v2_sdb2;
-	
-	dmW = fabs(ak8addjet->mass_sd0 - W_MASS);
-	nGoodFatJet++;
-      }
 //////////////////    diJet selection from boson starts ///////////////////////// 
+	int diJet_boson = 0;
       uint sel1=1000, sel2=1000;
-      if (nGoodFatJet==0) { 
+//Asar      if (nGoodFatJet==0) 
+      if (PuppiAK8Arr->GetEntries()==0) {
 //      if (isClean = true) 
 	TLorentzVector tmpV1, tmpV2;
 	float dmW=3000.0;
@@ -788,11 +727,76 @@ int main (int ac, char** av) {
 	WVJJTree->bos_AK4AK4_m_scaleDn = (tempBos1+tempBos2).M();
 	
       } //if (nGoodFatJet==0)
+//      } //checking cleanness Asar
       //check we have a hadronic boson candidate
-      if ( nGoodFatJet == 0 && nGoodDijet == 0 ) continue;
+//Asar      if ( nGoodFatJet == 0 && nGoodDijet == 0 ) continue;
 
      
+////////////////////// AK8
+      
+      PuppiAK8Arr->Clear();
+      puppiAK8Br->GetEntry(i);
+      PuppiAK8AddArr->Clear();
+      puppiAK8AddBr->GetEntry(i);
+      
+      float dmW = 3000.0;
+      int nGoodFatJet=0;
+      
+      for (int j=0; j<PuppiAK8Arr->GetEntries(); j++) {
+	const baconhep::TJet *ak8jet = (baconhep::TJet*)((*PuppiAK8Arr)[j]);
+	const baconhep::TAddJet *ak8addjet = (baconhep::TAddJet*)((*PuppiAK8AddArr)[j]);
+	
+	if ( ak8jet->pt < AK8_MIN_PT ||  fabs(ak8jet->eta) > AK8_MAX_ETA ) continue;
+	
+	float jecUnc = GetJECunc(ak8jet->pt, ak8jet->eta, fJetUnc_AK8puppi);
+	
+	if ( ak8addjet->mass_sd0 < AK8_MIN_SDM || ak8addjet->mass_sd0 > AK8_MAX_SDM ) continue;
+	if ( fabs(ak8addjet->mass_sd0 - W_MASS) > dmW ) continue;
+	
+	bool isClean=true;
+	//lepton cleaning
+	for ( std::size_t k=0; k<tightEle.size(); k++) {
+	  if (deltaR(tightEle.at(k).Eta(), tightEle.at(k).Phi(),
+		     ak8jet->eta, ak8jet->phi) < AK8_LEP_DR_CUT)
+	    isClean = false;
+	}
+	for ( std::size_t k=0; k<tightMuon.size(); k++) {
+	  if (deltaR(tightMuon.at(k).Eta(), tightMuon.at(k).Phi(),
+		     ak8jet->eta, ak8jet->phi) < AK8_LEP_DR_CUT)
+	    isClean = false;
+	}
+	if ( isClean == false ) continue;
+	
+	WVJJTree->bos_PuppiAK8_m_sd0 = ak8addjet->mass_sd0;
+	WVJJTree->bos_PuppiAK8_m_sd0_corr = 
+	  ak8addjet->mass_sd0 * getPUPPIweight(puppisd_corrGEN, puppisd_corrRECO_cen, puppisd_corrRECO_for,
+					       ak8jet->pt, ak8jet->eta);
+	WVJJTree->bos_PuppiAK8_tau2tau1 = ak8addjet->tau2/ak8addjet->tau1;
+	WVJJTree->bos_PuppiAK8_pt = ak8jet->pt;
+	WVJJTree->bos_PuppiAK8_eta = ak8jet->eta;
+	WVJJTree->bos_PuppiAK8_phi = ak8jet->phi;
+	
+	WVJJTree->bos_PuppiAK8_m_sd0_corr_scaleUp =  WVJJTree->bos_PuppiAK8_m_sd0_corr*(1.0+jecUnc);
+	WVJJTree->bos_PuppiAK8_m_sd0_corr_scaleDn =  WVJJTree->bos_PuppiAK8_m_sd0_corr*(1.0-jecUnc);
+	WVJJTree->bos_PuppiAK8_pt_scaleUp =  WVJJTree->bos_PuppiAK8_pt*(1.0+jecUnc);
+	WVJJTree->bos_PuppiAK8_pt_scaleDn =  WVJJTree->bos_PuppiAK8_pt*(1.0-jecUnc);
 
+	WVJJTree->bos_PuppiAK8_e2_sdb1 = ak8addjet->e2_sdb1;
+	WVJJTree->bos_PuppiAK8_e3_sdb1 = ak8addjet->e3_sdb1;
+	WVJJTree->bos_PuppiAK8_e3_v1_sdb1 = ak8addjet->e3_v1_sdb1;
+	WVJJTree->bos_PuppiAK8_e3_v2_sdb1 = ak8addjet->e3_v2_sdb1;
+	WVJJTree->bos_PuppiAK8_e4_v1_sdb1 = ak8addjet->e4_v1_sdb1;
+	WVJJTree->bos_PuppiAK8_e4_v2_sdb1 = ak8addjet->e4_v2_sdb1;
+	//WVJJTree->bos_PuppiAK8_e2_sdb2 = ak8addjet->e2_sdb2;
+	//WVJJTree->bos_PuppiAK8_e3_sdb2 = ak8addjet->e3_sdb2;
+	//WVJJTree->bos_PuppiAK8_e3_v1_sdb2 = ak8addjet->e3_v1_sdb2;
+	//WVJJTree->bos_PuppiAK8_e3_v2_sdb2 = ak8addjet->e3_v2_sdb2;
+	//WVJJTree->bos_PuppiAK8_e4_v1_sdb2 = ak8addjet->e4_v1_sdb2;
+	//WVJJTree->bos_PuppiAK8_e4_v2_sdb2 = ak8addjet->e4_v2_sdb2;
+	
+	dmW = fabs(ak8addjet->mass_sd0 - W_MASS);
+	nGoodFatJet++;
+      }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////     
       TLorentzVector bosHad(0,0,0,0), bosHad_up(0,0,0,0), bosHad_dn(0,0,0,0);
       TLorentzVector bosLep(0,0,0,0), bosLep_up(0,0,0,0), bosLep_dn(0,0,0,0);
