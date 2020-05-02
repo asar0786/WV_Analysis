@@ -4,12 +4,14 @@
 baconFolder=/eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples/
 #baconFolder=/eos/uscms/store/user/klawhorn/BaconSamples/
 
-outputFolder=/eos/uscms/store/user/klawhorn/WVJJTree_Dec5/2016
+#outputFolder=/eos/uscms/store/user/klawhorn/WVJJTree_Dec5/2016
+outputFolder=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
 
 #xrdfs root://cmseos.fnal.gov/ mkdir ${outputFolder}
 #xrdfs root://cmseos.fnal.gov/ mkdir ${outputFolder}/log
 
-outputJDL=dec_5_submit_2.jdl
+outputJDL=May_2_submit_2.jdl
+#outputJDL=dec_5_submit_2.jdl
 
 cat stub.jdl > ${outputJDL}
 
@@ -23,4 +25,4 @@ do
     echo "Arguments = " ${baconFolder}/${line} ${outputFolder} ${outputName} 1 2016 >> ${outputJDL}
     echo "Queue" >> ${outputJDL}
    
-done < tosubmit2016_2.dat
+done < tosubmit2016.dat

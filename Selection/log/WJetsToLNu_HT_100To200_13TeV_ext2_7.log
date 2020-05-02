@@ -1,0 +1,46 @@
+000 (65512065.133.000) 05/02 15:00:27 Job submitted from host: <131.225.188.235:9618?addrs=131.225.188.235-9618&noUDP&sock=813081_83ea_25>
+...
+001 (65512065.133.000) 05/02 15:02:49 Job executing on host: <131.225.204.41:9618?addrs=131.225.204.41-9618&noUDP&sock=1939_9239_3>
+...
+005 (65512065.133.000) 05/02 15:02:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4723  -  Run Bytes Sent By Job
+	11045  -  Run Bytes Received By Job
+	4723  -  Total Bytes Sent By Job
+	11045  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       37        2    318984 
+	   Memory (MB)          :              2048      2048 
+...
+000 (35929332.133.000) 05/02 15:11:35 Job submitted from host: <131.225.188.57:9618?addrs=131.225.188.57-9618&noUDP&sock=955572_7d49_27>
+...
+001 (35929332.133.000) 05/02 15:28:23 Job executing on host: <131.225.206.47:9618?addrs=131.225.206.47-9618&noUDP&sock=1923_98b6_3>
+...
+006 (35929332.133.000) 05/02 15:28:32 Image size of job updated: 2
+	2  -  MemoryUsage of job (MB)
+	3008  -  ResidentSetSize of job (KB)
+...
+006 (35929332.133.000) 05/02 15:29:32 Image size of job updated: 265
+	265  -  MemoryUsage of job (MB)
+	271456  -  ResidentSetSize of job (KB)
+...
+005 (35929332.133.000) 05/02 15:52:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:08:27, Sys 0 00:01:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:08:27, Sys 0 00:01:58  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4572  -  Run Bytes Sent By Job
+	11057  -  Run Bytes Received By Job
+	4572  -  Total Bytes Sent By Job
+	11057  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       36        2    324194 
+	   Memory (MB)          :      263     2048      2048 
+...

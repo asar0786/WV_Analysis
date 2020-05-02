@@ -1,0 +1,1044 @@
+Universe = vanilla
+Executable = runjob.sh
+Notification = ERROR
+x509userproxy = $ENV(X509_USER_PROXY)
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_7.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_7.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYJetsToLL_M-50_amcatnlo_7.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYJetsToLL_M-50_amcatnlo_7 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYJetsToLL_M-50_amcatnlo_7 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_0J_13TeV-amcatnloFXFX-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_0J_13TeV-amcatnloFXFX-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_0J_13TeV-amcatnloFXFX-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_0J_13TeV-amcatnloFXFX-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_0J_13TeV-amcatnloFXFX-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1000to1500_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1000to1500_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1000to1500_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT1000to1500_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT1000to1500_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1000to1500_13TeV_ext.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1000to1500_13TeV_ext.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1000to1500_13TeV_ext.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT1000to1500_13TeV_ext /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT1000to1500_13TeV_ext 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT100to200_13TeV_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT100to200_13TeV_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT100to200_13TeV_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT100to200_13TeV_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT100to200_13TeV_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT100to200_13TeV_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT100to200_13TeV_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT100to200_13TeV_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT100to200_13TeV_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT100to200_13TeV_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT100to200_13TeV_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT100to200_13TeV_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT100to200_13TeV_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1500to2000_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1500to2000_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1500to2000_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT1500to2000_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT1500to2000_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1500to2000_13TeV_ext.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1500to2000_13TeV_ext.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT1500to2000_13TeV_ext.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT1500to2000_13TeV_ext /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT1500to2000_13TeV_ext 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT2000toInf_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT2000toInf_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT2000toInf_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT2000toInf_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT2000toInf_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT2000toInf_13TeV_ext.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT2000toInf_13TeV_ext.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT2000toInf_13TeV_ext.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT2000toInf_13TeV_ext /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT2000toInf_13TeV_ext 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT200to300_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT200to300_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV_ext_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV_ext_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV_ext_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT200to300_13TeV_ext_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT200to300_13TeV_ext_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV_ext_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV_ext_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT200to300_13TeV_ext_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT200to300_13TeV_ext_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT200to300_13TeV_ext_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT300to500_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT300to500_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT300to500_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT300to500_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT300to500_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT300to500_13TeV_ext.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT300to500_13TeV_ext.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT300to500_13TeV_ext.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT300to500_13TeV_ext /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT300to500_13TeV_ext 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT500to700_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT500to700_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT500to700_13TeV_ext_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT500to700_13TeV_ext_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT500to700_13TeV_ext_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT500to700_13TeV_ext_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT500to700_13TeV_ext_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT500to700_13TeV_ext_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT500to700_13TeV_ext_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT50to100_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT50to100_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT50to100_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT50to100_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT50to100_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT700to1000_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT700to1000_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT700to1000_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT700to1000_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT700to1000_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT700to1000_13TeV_ext.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT700to1000_13TeV_ext.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/QCD_HT700to1000_13TeV_ext.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//QCD_HT700to1000_13TeV_ext /eos/uscms/store/user/asahmed/WV_2016_flatntuples QCD_HT700to1000_13TeV_ext 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016F_03Feb2017_v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016F_03Feb2017_v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016F_03Feb2017_v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectronRun2016F_03Feb2017_v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectronRun2016F_03Feb2017_v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver2_v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver2_v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver2_v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectronRun2016H_03Feb2017_ver2_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectronRun2016H_03Feb2017_ver2_v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver2_v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver2_v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver2_v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectronRun2016H_03Feb2017_ver2_v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectronRun2016H_03Feb2017_ver2_v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver3_v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver3_v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectronRun2016H_03Feb2017_ver3_v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectronRun2016H_03Feb2017_ver3_v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectronRun2016H_03Feb2017_ver3_v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver1-v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver1-v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver1-v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016B-03Feb2017_ver1-v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016B-03Feb2017_ver1-v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016B-03Feb2017_ver2-v2_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016B-03Feb2017_ver2-v2_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016B-03Feb2017_ver2-v2_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016B-03Feb2017_ver2-v2_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016B-03Feb2017_ver2-v2_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016B-03Feb2017_ver2-v2_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016B-03Feb2017_ver2-v2_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016B-03Feb2017_ver2-v2_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016B-03Feb2017_ver2-v2_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016B-03Feb2017_ver2-v2_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016C-03Feb2017-v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016C-03Feb2017-v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016C-03Feb2017-v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016C-03Feb2017-v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016C-03Feb2017-v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016D-03Feb2017-v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016D-03Feb2017-v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016D-03Feb2017-v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016D-03Feb2017-v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016D-03Feb2017-v1_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016D-03Feb2017-v1_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016D-03Feb2017-v1_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016E-03Feb2017-v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016E-03Feb2017-v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016E-03Feb2017-v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016E-03Feb2017-v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016E-03Feb2017-v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016E-03Feb2017-v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016E-03Feb2017-v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016E-03Feb2017-v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016E-03Feb2017-v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016E-03Feb2017-v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016G-03Feb2017-v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016G-03Feb2017-v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016G-03Feb2017-v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016G-03Feb2017-v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleElectron_Run2016G-03Feb2017-v1_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleElectron_Run2016G-03Feb2017-v1_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleElectron_Run2016G-03Feb2017-v1_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver1_v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver1_v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver1_v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016B_03Feb2017_ver1_v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016B_03Feb2017_ver1_v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016B_03Feb2017_ver2_v2_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016B_03Feb2017_ver2_v2_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016B_03Feb2017_ver2_v2_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016B_03Feb2017_ver2_v2_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016B_03Feb2017_ver2_v2_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016B_03Feb2017_ver2_v2_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016B_03Feb2017_ver2_v2_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016C_03Feb2017_v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016C_03Feb2017_v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016C_03Feb2017_v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016C_03Feb2017_v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016C_03Feb2017_v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016D_03Feb2017_v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016D_03Feb2017_v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016D_03Feb2017_v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016D_03Feb2017_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016D_03Feb2017_v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016D_03Feb2017_v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016D_03Feb2017_v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016D_03Feb2017_v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016D_03Feb2017_v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016D_03Feb2017_v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016E_03Feb2017_v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016E_03Feb2017_v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016E_03Feb2017_v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016E_03Feb2017_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016E_03Feb2017_v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016E_03Feb2017_v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016E_03Feb2017_v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016E_03Feb2017_v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016E_03Feb2017_v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016E_03Feb2017_v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016F_03Feb2017_v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016F_03Feb2017_v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016F_03Feb2017_v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016F_03Feb2017_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016F_03Feb2017_v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016F_03Feb2017_v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016F_03Feb2017_v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016F_03Feb2017_v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016F_03Feb2017_v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016F_03Feb2017_v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016G_03Feb2017_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016G_03Feb2017_v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016G_03Feb2017_v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016G_03Feb2017_v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016G_03Feb2017_v1_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016G_03Feb2017_v1_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016G_03Feb2017_v1_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016H_03Feb2017_ver2_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016H_03Feb2017_ver2_v1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016H_03Feb2017_ver2_v1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016H_03Feb2017_ver2_v1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver2_v1_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016H_03Feb2017_ver2_v1_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016H_03Feb2017_ver2_v1_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver3_v1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver3_v1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/SingleMuonRun2016H_03Feb2017_ver3_v1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016H_03Feb2017_ver3_v1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016H_03Feb2017_ver3_v1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_s_channel_4f_leptonDecays.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_s_channel_4f_leptonDecays.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_s_channel_4f_leptonDecays.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//Summer16_ST_s_channel_4f_leptonDecays /eos/uscms/store/user/asahmed/WV_2016_flatntuples Summer16_ST_s_channel_4f_leptonDecays 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTTo2L2Nu_powheg.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTTo2L2Nu_powheg.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTTo2L2Nu_powheg.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTTo2L2Nu_powheg /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTTo2L2Nu_powheg 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTTo2L2Nu_powheg_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTTo2L2Nu_powheg_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTTo2L2Nu_powheg_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTTo2L2Nu_powheg_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTTo2L2Nu_powheg_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTToSemilepton_powheg_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTToSemilepton_powheg_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTToSemilepton_powheg_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTToSemilepton_powheg_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTToSemilepton_powheg_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTToSemilepton_powheg_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTToSemilepton_powheg_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTToSemilepton_powheg_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTToSemilepton_powheg_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTToSemilepton_powheg_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTToSemilepton_powheg_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTToSemilepton_powheg_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTToSemilepton_powheg_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToLNu_ext1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToLNu_ext1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToLNu_ext1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTWJetsToLNu_ext1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTWJetsToLNu_ext1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToLNu_ext2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToLNu_ext2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToLNu_ext2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTWJetsToLNu_ext2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTWJetsToLNu_ext2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToQQ.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToQQ.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTWJetsToQQ.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTWJetsToQQ /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTWJetsToQQ 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToLLNuNu_M-10.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToLLNuNu_M-10.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToLLNuNu_M-10.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTZToLLNuNu_M-10 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTZToLLNuNu_M-10 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToLLNuNu_M-10_ext2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToLLNuNu_M-10_ext2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToLLNuNu_M-10_ext2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTZToLLNuNu_M-10_ext2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTZToLLNuNu_M-10_ext2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToQQ.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToQQ.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/TTZToQQ.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//TTZToQQ /eos/uscms/store/user/asahmed/WV_2016_flatntuples TTZToQQ 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext1_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext1_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext1_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext1_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext1_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext1_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext1_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext1_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext1_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_4.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_4.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_4.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_4 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_4 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_5.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_5.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_5.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_5 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_5 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_6.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_6.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_6.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_6 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_6 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_7.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_7.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_7.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_7 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_7 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_100To200_13TeV_ext2_8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_100To200_13TeV_ext2_8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_100To200_13TeV_ext2_8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_1200To2500_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_1200To2500_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_1200To2500_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_1200To2500_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_1200To2500_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_1200To2500_13TeV_ext1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_1200To2500_13TeV_ext1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_1200To2500_13TeV_ext1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_1200To2500_13TeV_ext1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_1200To2500_13TeV_ext1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext2_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext2_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext2_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext2_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_200To400_13TeV_ext2_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_200To400_13TeV_ext2_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_200To400_13TeV_ext2_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_2500ToInf_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_2500ToInf_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_2500ToInf_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_2500ToInf_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_2500ToInf_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_2500ToInf_13TeV_ext1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_2500ToInf_13TeV_ext1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_2500ToInf_13TeV_ext1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_2500ToInf_13TeV_ext1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_2500ToInf_13TeV_ext1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_400To600_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_400To600_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_400To600_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_400To600_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_400To600_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_400To600_13TeV_ext1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_400To600_13TeV_ext1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_400To600_13TeV_ext1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_400To600_13TeV_ext1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_400To600_13TeV_ext1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_600To800_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_600To800_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV_ext1_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV_ext1_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV_ext1_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_600To800_13TeV_ext1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_600To800_13TeV_ext1_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV_ext1_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV_ext1_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_600To800_13TeV_ext1_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_600To800_13TeV_ext1_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_600To800_13TeV_ext1_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_70To100_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_70To100_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_70To100_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_70To100_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_70To100_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_800To1200_13TeV.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_800To1200_13TeV.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_800To1200_13TeV.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_800To1200_13TeV /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_800To1200_13TeV 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_800To1200_13TeV_ext1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_800To1200_13TeV_ext1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WJetsToLNu_HT_800To1200_13TeV_ext1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WJetsToLNu_HT_800To1200_13TeV_ext1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WJetsToLNu_HT_800To1200_13TeV_ext1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo2L2Nu_13TeV_powheg.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo2L2Nu_13TeV_powheg.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo2L2Nu_13TeV_powheg.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWTo2L2Nu_13TeV_powheg /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWTo2L2Nu_13TeV_powheg 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo4Q_13TeV_powheg.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo4Q_13TeV_powheg.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWTo4Q_13TeV_powheg.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWTo4Q_13TeV_powheg /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWTo4Q_13TeV_powheg 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWToLNuQQ_13TeV_powheg.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWToLNuQQ_13TeV_powheg.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWToLNuQQ_13TeV_powheg.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWToLNuQQ_13TeV_powheg /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWToLNuQQ_13TeV_powheg 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWToLNuQQ_13TeV_powheg_ext.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWToLNuQQ_13TeV_powheg_ext.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWToLNuQQ_13TeV_powheg_ext.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWToLNuQQ_13TeV_powheg_ext /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWToLNuQQ_13TeV_powheg_ext 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWW_4F_13TeV_amcatnlo_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWW_4F_13TeV_amcatnlo_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWW_4F_13TeV_amcatnlo_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWW_4F_13TeV_amcatnlo_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWW_4F_13TeV_amcatnlo_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWZ_13TeV_amcatnlo_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWZ_13TeV_amcatnlo_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WWZ_13TeV_amcatnlo_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WWZ_13TeV_amcatnlo_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WWZ_13TeV_amcatnlo_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WW_13TeV_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WW_13TeV_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WW_13TeV_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WW_13TeV_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WW_13TeV_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZToLNu2Q_13TeV_powheg_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZToLNu2Q_13TeV_powheg_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZToLNu2Q_13TeV_powheg_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WZToLNu2Q_13TeV_powheg_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WZToLNu2Q_13TeV_powheg_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZ_13TeV_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZ_13TeV_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WZ_13TeV_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WZ_13TeV_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WZ_13TeV_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2L2Nu_13TeV_powheg_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2L2Nu_13TeV_powheg_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2L2Nu_13TeV_powheg_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZTo2L2Nu_13TeV_powheg_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZTo2L2Nu_13TeV_powheg_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZZ_13TeV_amcatnlo_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZZ_13TeV_amcatnlo_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZZ_13TeV_amcatnlo_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZZ_13TeV_amcatnlo_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZZ_13TeV_amcatnlo_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZ_13TeV_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZ_13TeV_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZ_13TeV_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZ_13TeV_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZ_13TeV_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZto4L_13TeV_amcatnloFXFX_pythia8.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZto4L_13TeV_amcatnloFXFX_pythia8.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/ZZto4L_13TeV_amcatnloFXFX_pythia8.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//ZZto4L_13TeV_amcatnloFXFX_pythia8 /eos/uscms/store/user/asahmed/WV_2016_flatntuples ZZto4L_13TeV_amcatnloFXFX_pythia8 1 2016
+Queue
+Output =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/.stdout
+Error =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/.stderr
+Log =  /uscms/home/asahmed/nobackup/WV_Ana_2017/CMSSW_10_2_13/src/WVJJAna/Selection/log/.log
+Arguments =  /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples// /eos/uscms/store/user/asahmed/WV_2016_flatntuples 1 2016
+Queue

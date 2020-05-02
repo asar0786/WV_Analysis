@@ -538,14 +538,14 @@ int main (int ac, char** av) {
 	    isClean = false;
 	  }
 	}
-	
+/*	
 	for ( std::size_t k=0; k<goodAK4Jets.size(); k++) {
 	  if (deltaR(goodAK4Jets.at(k).Eta(), goodAK4Jets.at(k).Phi(),
 		     ak4jet->eta, ak4jet->phi) < AK4_DR_CUT) {
 	    isClean = false;
 	  }
 	}
-
+*/
 	for ( std::size_t k=0; k<tightEle.size(); k++) {
 	  if (deltaR(tightEle.at(k).Eta(), tightEle.at(k).Phi(),
 		     ak4jet->eta,   ak4jet->phi) < AK4_DR_CUT) {

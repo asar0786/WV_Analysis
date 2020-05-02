@@ -1,0 +1,73 @@
+[FERMIHTC-SINGULARITY]: INFO -- No Singulariy image specified
+[FERMIHTC-SINGULARITY]: INFO -- Running job on the host machine
+
+[FERMIHTC-SINGULARITY]: INFO -- Running ./condor_exec.exe /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1 1 2016
+Starting job on  Sat May 2 20:16:41 UTC 2020
+Running on: Linux asahmed-35929332-26-cmswn1655.fnal.gov 3.10.0-1062.12.1.el7.x86_64 #1 SMP Wed Feb 5 09:10:55 CST 2020 x86_64 x86_64 x86_64 GNU/Linux
+System software: Scientific Linux release 6.10 (Carbon)
+====> List files : 
+total 16M
+drwxr-xr-x 7 asahmed fnalgrid 4.0K May  2 19:43 .
+drwxr-xr-x 4 asahmed fnalgrid 4.0K Apr 15 16:36 ..
+-rw-r--r-- 1 asahmed fnalgrid 4.2M May  2 19:39 Asar.root
+-rw-r--r-- 1 asahmed fnalgrid  281 Apr 15 16:36 BuildFile.xml
+-rw-r--r-- 1 asahmed fnalgrid  422 Apr 15 16:36 README.md
+-rw-r--r-- 1 asahmed fnalgrid 5.3M Apr 30 18:12 Updated.root
+drwxr-xr-x 2 asahmed fnalgrid 4.0K May  2 19:36 bin
+drwxr-xr-x 6 asahmed fnalgrid 4.0K Apr 15 16:36 data
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 30 18:12 interface
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 15 16:36 log
+-rw-r--r-- 1 asahmed fnalgrid 2.3M Apr 30 18:12 output.root
+-rwxr-xr-x 1 asahmed fnalgrid 1.2K Apr 15 16:36 runjob.sh
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 30 18:12 src
+-rw-r--r-- 1 asahmed fnalgrid  101 Apr 15 16:36 stub.jdl
+-rwxr-xr-x 1 asahmed fnalgrid  852 Apr 15 16:36 submitjobs.sh
+-rw-r--r-- 1 asahmed fnalgrid 3.2K Apr 15 16:36 test.dat
+-rw-r--r-- 1 asahmed fnalgrid 3.5M Apr 30 18:12 test.root
+-rw-r--r-- 1 asahmed fnalgrid 8.6K Apr 15 16:36 tosubmit2016.dat
+-rw-r--r-- 1 asahmed fnalgrid  376 Apr 15 16:36 tosubmit2016_special.dat
+-rw-r--r-- 1 asahmed fnalgrid 4.4K Apr 15 16:36 tosubmit2017.dat
+====> Remove any file with name similar to WWTree*.root... 
+Reading cached build data
+Done: ProjectRename
+====> List files : 
+total 76K
+drwxr-xr-x 7 asahmed fnalgrid 4.0K May  2 20:16 .
+drwxr-xr-x 4 asahmed fnalgrid 4.0K Apr 15 16:36 ..
+-rw-r--r-- 1 asahmed fnalgrid  281 Apr 15 16:36 BuildFile.xml
+-rw-r--r-- 1 asahmed fnalgrid  422 Apr 15 16:36 README.md
+drwxr-xr-x 2 asahmed fnalgrid 4.0K May  2 19:36 bin
+drwxr-xr-x 6 asahmed fnalgrid 4.0K Apr 15 16:36 data
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 30 18:12 interface
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 15 16:36 log
+-rwxr-xr-x 1 asahmed fnalgrid 1.2K Apr 15 16:36 runjob.sh
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 30 18:12 src
+-rw-r--r-- 1 asahmed fnalgrid  101 Apr 15 16:36 stub.jdl
+-rwxr-xr-x 1 asahmed fnalgrid  852 Apr 15 16:36 submitjobs.sh
+-rw-r--r-- 1 asahmed fnalgrid 3.2K Apr 15 16:36 test.dat
+-rw-r--r-- 1 asahmed fnalgrid 8.6K Apr 15 16:36 tosubmit2016.dat
+-rw-r--r-- 1 asahmed fnalgrid  376 Apr 15 16:36 tosubmit2016_special.dat
+-rw-r--r-- 1 asahmed fnalgrid 4.4K Apr 15 16:36 tosubmit2017.dat
+====> List files : 
+total 932K
+drwxr-xr-x 7 asahmed fnalgrid 4.0K May  2 20:16 .
+drwxr-xr-x 4 asahmed fnalgrid 4.0K Apr 15 16:36 ..
+-rw-r--r-- 1 asahmed fnalgrid  281 Apr 15 16:36 BuildFile.xml
+-rw-r--r-- 1 asahmed fnalgrid 841K May  2 20:29 DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.root
+-rw-r--r-- 1 asahmed fnalgrid 6.1K May  2 20:16 DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.txt
+-rw-r--r-- 1 asahmed fnalgrid  422 Apr 15 16:36 README.md
+drwxr-xr-x 2 asahmed fnalgrid 4.0K May  2 19:36 bin
+drwxr-xr-x 6 asahmed fnalgrid 4.0K Apr 15 16:36 data
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 30 18:12 interface
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 15 16:36 log
+-rwxr-xr-x 1 asahmed fnalgrid 1.2K Apr 15 16:36 runjob.sh
+drwxr-xr-x 2 asahmed fnalgrid 4.0K Apr 30 18:12 src
+-rw-r--r-- 1 asahmed fnalgrid  101 Apr 15 16:36 stub.jdl
+-rwxr-xr-x 1 asahmed fnalgrid  852 Apr 15 16:36 submitjobs.sh
+-rw-r--r-- 1 asahmed fnalgrid 3.2K Apr 15 16:36 test.dat
+-rw-r--r-- 1 asahmed fnalgrid 8.6K Apr 15 16:36 tosubmit2016.dat
+-rw-r--r-- 1 asahmed fnalgrid  376 Apr 15 16:36 tosubmit2016_special.dat
+-rw-r--r-- 1 asahmed fnalgrid 4.4K Apr 15 16:36 tosubmit2017.dat
+====> List root files : 
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.root
+====> copying WWTree*.root file to stores area...

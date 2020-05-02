@@ -1,0 +1,59 @@
+[FERMIHTC-SINGULARITY]: INFO -- No Singulariy image specified
+[FERMIHTC-SINGULARITY]: INFO -- Running job on the host machine
+
+[FERMIHTC-SINGULARITY]: INFO -- Running ./condor_exec.exe /eos/uscms/store/user/lnujj/WpWm_aQGC_Ntuples_Ram/FirstStepOutput/BaconNtuples//SingleMuonRun2016G_03Feb2017_v1_1 /eos/uscms/store/user/asahmed/WV_2016_flatntuples SingleMuonRun2016G_03Feb2017_v1_1 1 2016
+Starting job on  Sat May 2 20:02:26 UTC 2020
+Running on: Linux asahmed-65512065-96-cmswn2008.fnal.gov 3.10.0-1062.12.1.el7.x86_64 #1 SMP Wed Feb 5 09:10:55 CST 2020 x86_64 x86_64 x86_64 GNU/Linux
+System software: Scientific Linux release 6.10 (Carbon)
+====> List files : 
+total 76K
+drwx------ 4 asahmed fnalgrid 4.0K May  2 20:02 .
+drwxr-xr-x 3 root    root     4.0K May  2 20:02 ..
+-rwx------ 1 asahmed fnalgrid   49 May  2 20:02 .chirp.config
+srwxr-xr-x 1 asahmed fnalgrid    0 May  2 20:02 .docker_sock
+-rw-r--r-- 1 asahmed fnalgrid 5.5K May  2 20:02 .job.ad
+-rw-r--r-- 1 asahmed fnalgrid 9.7K May  2 20:02 .machine.ad
+-rw-r--r-- 1 asahmed fnalgrid 9.5K May  2 20:02 .update.ad
+-rw-r--r-- 1 asahmed fnalgrid  424 May  2 20:02 _condor_stderr
+-rw-r--r-- 1 asahmed fnalgrid  662 May  2 20:02 _condor_stdout
+-rwxr-xr-x 1 asahmed fnalgrid 1.2K May  2 20:02 condor_exec.exe
+-rwxr-xr-x 1 asahmed fnalgrid    0 May  2 20:02 docker_stderror
+drwx------ 2 asahmed fnalgrid 4.0K May  2 20:02 tmp
+drwx------ 3 asahmed fnalgrid 4.0K May  2 20:02 var
+-rw------- 1 asahmed fnalgrid 9.7K May  2 20:02 x509up_u54774
+====> Remove any file with name similar to WWTree*.root... 
+====> List files : 
+total 76K
+drwx------ 4 asahmed fnalgrid 4.0K May  2 20:02 .
+drwxr-xr-x 3 root    root     4.0K May  2 20:02 ..
+-rwx------ 1 asahmed fnalgrid   49 May  2 20:02 .chirp.config
+srwxr-xr-x 1 asahmed fnalgrid    0 May  2 20:02 .docker_sock
+-rw-r--r-- 1 asahmed fnalgrid 5.5K May  2 20:02 .job.ad
+-rw-r--r-- 1 asahmed fnalgrid 9.7K May  2 20:02 .machine.ad
+-rw-r--r-- 1 asahmed fnalgrid 9.5K May  2 20:02 .update.ad
+-rw-r--r-- 1 asahmed fnalgrid  688 May  2 20:02 _condor_stderr
+-rw-r--r-- 1 asahmed fnalgrid 1.6K May  2 20:02 _condor_stdout
+-rwxr-xr-x 1 asahmed fnalgrid 1.2K May  2 20:02 condor_exec.exe
+-rwxr-xr-x 1 asahmed fnalgrid    0 May  2 20:02 docker_stderror
+drwx------ 2 asahmed fnalgrid 4.0K May  2 20:02 tmp
+drwx------ 3 asahmed fnalgrid 4.0K May  2 20:02 var
+-rw------- 1 asahmed fnalgrid 9.7K May  2 20:02 x509up_u54774
+====> List files : 
+total 80K
+drwx------ 4 asahmed fnalgrid 4.0K May  2 20:02 .
+drwxr-xr-x 3 root    root     4.0K May  2 20:02 ..
+-rwx------ 1 asahmed fnalgrid   49 May  2 20:02 .chirp.config
+srwxr-xr-x 1 asahmed fnalgrid    0 May  2 20:02 .docker_sock
+-rw-r--r-- 1 asahmed fnalgrid 5.5K May  2 20:02 .job.ad
+-rw-r--r-- 1 asahmed fnalgrid 9.7K May  2 20:02 .machine.ad
+-rw-r--r-- 1 asahmed fnalgrid 9.5K May  2 20:02 .update.ad
+-rw-r--r-- 1 asahmed fnalgrid 1.7K May  2 20:02 SingleMuonRun2016G_03Feb2017_v1_1.txt
+-rw-r--r-- 1 asahmed fnalgrid  745 May  2 20:02 _condor_stderr
+-rw-r--r-- 1 asahmed fnalgrid 2.4K May  2 20:02 _condor_stdout
+-rwxr-xr-x 1 asahmed fnalgrid 1.2K May  2 20:02 condor_exec.exe
+-rwxr-xr-x 1 asahmed fnalgrid    0 May  2 20:02 docker_stderror
+drwx------ 2 asahmed fnalgrid 4.0K May  2 20:02 tmp
+drwx------ 3 asahmed fnalgrid 4.0K May  2 20:02 var
+-rw------- 1 asahmed fnalgrid 9.7K May  2 20:02 x509up_u54774
+====> List root files : 
+====> copying WWTree*.root file to stores area...
