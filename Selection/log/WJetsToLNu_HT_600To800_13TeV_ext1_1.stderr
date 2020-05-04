@@ -1,13 +1,2 @@
-Run: [ERROR] Server responded with an error: [3011] Unable to open file /eos/uscms/store/user/asahmed/CMSSW_10_2_13_v2.tgz; No such file or directory
-
-tar: CMSSW_10_2_13_v2.tgz: Cannot open: No such file or directory
-tar: Error is not recoverable: exiting now
-rm: cannot remove `CMSSW_10_2_13_v2.tgz': No such file or directory
-./condor_exec.exe: line 12: cd: CMSSW_10_2_13/src/WVJJAna/Selection/: No such file or directory
-rm: cannot remove `*.root': No such file or directory
-SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
-SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
-./condor_exec.exe: line 22: Selection: command not found
-ls: cannot access WJetsToLNu_HT_600To800_13TeV_ext1_1.root: No such file or directory
-xrdcp: No such file or directory processing WJetsToLNu_HT_600To800_13TeV_ext1_1.root
-rm: cannot remove `WJetsToLNu_HT_600To800_13TeV_ext1_1.root': No such file or directory
+Error in <TCling::RegisterModule>: cannot find dictionary module BaconAnaDataFormats_yr_rdict.pcm
+[16MB/367.1MB][  4%][==>                                               ][16MB/s]  [96MB/367.1MB][ 26%][=============>                                    ][96MB/s]  [160MB/367.1MB][ 43%][=====================>                            ][80MB/s]  [240MB/367.1MB][ 65%][================================>                 ][80MB/s]  [304MB/367.1MB][ 82%][=========================================>        ][76MB/s]  [367.1MB/367.1MB][100%][==================================================][91.77MB/s]  [367.1MB/367.1MB][100%][==================================================][73.41MB/s]  

@@ -1,13 +1,26 @@
-Run: [ERROR] Server responded with an error: [3011] Unable to open file /eos/uscms/store/user/asahmed/CMSSW_10_2_13_v2.tgz; No such file or directory
-
-tar: CMSSW_10_2_13_v2.tgz: Cannot open: No such file or directory
-tar: Error is not recoverable: exiting now
-rm: cannot remove `CMSSW_10_2_13_v2.tgz': No such file or directory
-./condor_exec.exe: line 12: cd: CMSSW_10_2_13/src/WVJJAna/Selection/: No such file or directory
-rm: cannot remove `*.root': No such file or directory
-SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
-SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
-./condor_exec.exe: line 22: Selection: command not found
-ls: cannot access TTTo2L2Nu_powheg_pythia8.root: No such file or directory
-xrdcp: No such file or directory processing TTTo2L2Nu_powheg_pythia8.root
-rm: cannot remove `TTTo2L2Nu_powheg_pythia8.root': No such file or directory
+Error in <TCling::RegisterModule>: cannot find dictionary module BaconAnaDataFormats_yr_rdict.pcm
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+[16MB/1.156GB][  1%][>                                                 ][16MB/s]  [48MB/1.156GB][  4%][==>                                               ][24MB/s]  [160MB/1.156GB][ 13%][======>                                           ][53.33MB/s]  [240MB/1.156GB][ 20%][==========>                                       ][60MB/s]  [320MB/1.156GB][ 27%][=============>                                    ][64MB/s]  [384MB/1.156GB][ 32%][================>                                 ][64MB/s]  [464MB/1.156GB][ 39%][===================>                              ][66.29MB/s]  [544MB/1.156GB][ 45%][======================>                           ][68MB/s]  [608MB/1.156GB][ 51%][=========================>                        ][67.56MB/s]  [688MB/1.156GB][ 58%][=============================>                    ][68.8MB/s]  [768MB/1.156GB][ 64%][================================>                 ][69.82MB/s]  [848MB/1.156GB][ 71%][===================================>              ][70.67MB/s]  [912MB/1.156GB][ 77%][======================================>           ][70.15MB/s]  [976MB/1.156GB][ 82%][=========================================>        ][69.71MB/s]  [1.031GB/1.156GB][ 89%][============================================>     ][70.4MB/s]  [1.109GB/1.156GB][ 96%][================================================> ][71MB/s]  [1.156GB/1.156GB][100%][==================================================][73.96MB/s]  [1.156GB/1.156GB][100%][==================================================][69.61MB/s]  

@@ -1,13 +1,8 @@
-Run: [ERROR] Server responded with an error: [3011] Unable to open file /eos/uscms/store/user/asahmed/CMSSW_10_2_13_v2.tgz; No such file or directory
-
-tar: CMSSW_10_2_13_v2.tgz: Cannot open: No such file or directory
-tar: Error is not recoverable: exiting now
-rm: cannot remove `CMSSW_10_2_13_v2.tgz': No such file or directory
-./condor_exec.exe: line 12: cd: CMSSW_10_2_13/src/WVJJAna/Selection/: No such file or directory
-rm: cannot remove `*.root': No such file or directory
-SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
-SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
-./condor_exec.exe: line 22: Selection: command not found
-ls: cannot access WJetsToLNu_HT_600To800_13TeV_ext1_2.root: No such file or directory
-xrdcp: No such file or directory processing WJetsToLNu_HT_600To800_13TeV_ext1_2.root
-rm: cannot remove `WJetsToLNu_HT_600To800_13TeV_ext1_2.root': No such file or directory
+Error in <TCling::RegisterModule>: cannot find dictionary module BaconAnaDataFormats_yr_rdict.pcm
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+%MSG-e SimpleJetCorrectionUncertainty: 
+ bin variables out of range
+%MSG
+[16MB/407.3MB][  3%][=>                                                ][16MB/s]  [32MB/407.3MB][  7%][===>                                              ][32MB/s]  [128MB/407.3MB][ 31%][===============>                                  ][64MB/s]  [192MB/407.3MB][ 47%][=======================>                          ][64MB/s]  [256MB/407.3MB][ 62%][===============================>                  ][64MB/s]  [336MB/407.3MB][ 82%][=========================================>        ][67.2MB/s]  [400MB/407.3MB][ 98%][=================================================>][66.67MB/s]  [407.3MB/407.3MB][100%][==================================================][67.88MB/s]  [407.3MB/407.3MB][100%][==================================================][58.18MB/s]  

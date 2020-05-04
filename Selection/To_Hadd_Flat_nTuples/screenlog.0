@@ -1,0 +1,1704 @@
+python: error while loading shared libraries: libpython2.7.so.1.0: cannot open shared object file: No such file or directory
+_asahmed@cmslpc35:To_Hadd_Flat_nTuples\[asahmed@cmslpc35 To_Hadd_Flat_nTuples]$ cmsenv
+_asahmed@cmslpc35:To_Hadd_Flat_nTuples\[asahmed@cmslpc35 To_Hadd_Flat_nTuples]$ sh 
+hadd_nTuples.sh  screenlog.0      
+_asahmed@cmslpc35:To_Hadd_Flat_nTuples\[asahmed@cmslpc35 To_Hadd_Flat_nTuples]$ sh hadd_nTuples.sh 
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.root
+DYJetsToLL_M-50_amcatnlo_1.root
+DYJetsToLL_M-50_amcatnlo_2.root
+DYJetsToLL_M-50_amcatnlo_3.root
+DYJetsToLL_M-50_amcatnlo_4.root
+DYJetsToLL_M-50_amcatnlo_5.root
+DYJetsToLL_M-50_amcatnlo_6.root
+DYJetsToLL_M-50_amcatnlo_7.root
+DYToLL_0J_13TeV-amcatnloFXFX-pythia8.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.root
+Hadd_Files_2016
+QCD_HT1000to1500_13TeV.root
+QCD_HT1000to1500_13TeV_ext.root
+QCD_HT100to200_13TeV_1.root
+QCD_HT100to200_13TeV_2.root
+QCD_HT100to200_13TeV_3.root
+QCD_HT100to200_13TeV_4.root
+QCD_HT100to200_13TeV_5.root
+QCD_HT100to200_13TeV_6.root
+QCD_HT1500to2000_13TeV.root
+QCD_HT1500to2000_13TeV_ext.root
+QCD_HT2000toInf_13TeV.root
+QCD_HT2000toInf_13TeV_ext.root
+QCD_HT200to300_13TeV.root
+QCD_HT200to300_13TeV_ext_1.root
+QCD_HT200to300_13TeV_ext_2.root
+QCD_HT300to500_13TeV.root
+QCD_HT300to500_13TeV_ext.root
+QCD_HT500to700_13TeV.root
+QCD_HT500to700_13TeV_ext_1.root
+QCD_HT500to700_13TeV_ext_2.root
+QCD_HT500to700_13TeV_ext_3.root
+QCD_HT50to100_13TeV.root
+QCD_HT700to1000_13TeV.root
+QCD_HT700to1000_13TeV_ext.root
+ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+SingleElectronRun2016F_03Feb2017_v1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_2.root
+SingleElectronRun2016H_03Feb2017_ver3_v1.root
+SingleElectron_Run2016B-03Feb2017_ver1-v1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_2.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_3.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_4.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_5.root
+SingleElectron_Run2016C-03Feb2017-v1.root
+SingleElectron_Run2016D-03Feb2017-v1_1.root
+SingleElectron_Run2016D-03Feb2017-v1_2.root
+SingleElectron_Run2016D-03Feb2017-v1_3.root
+SingleElectron_Run2016E-03Feb2017-v1_1.root
+SingleElectron_Run2016E-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_1.root
+SingleElectron_Run2016G-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_3.root
+SingleMuonRun2016B_03Feb2017_ver1_v1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_2.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_3.root
+SingleMuonRun2016C_03Feb2017_v1.root
+SingleMuonRun2016D_03Feb2017_v1_1.root
+SingleMuonRun2016D_03Feb2017_v1_2.root
+SingleMuonRun2016E_03Feb2017_v1_1.root
+SingleMuonRun2016E_03Feb2017_v1_2.root
+SingleMuonRun2016F_03Feb2017_v1_1.root
+SingleMuonRun2016F_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_1.root
+SingleMuonRun2016G_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_1.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_2.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver3_v1.root
+Summer16_ST_s_channel_4f_leptonDecays.root
+Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+TTTo2L2Nu_powheg.root
+TTTo2L2Nu_powheg_pythia8.root
+TTToSemilepton_powheg_1.root
+TTToSemilepton_powheg_2.root
+TTToSemilepton_powheg_3.root
+TTToSemilepton_powheg_4.root
+TTToSemilepton_powheg_5.root
+TTToSemilepton_powheg_6.root
+TTWJetsToLNu_ext1.root
+TTWJetsToLNu_ext2.root
+TTWJetsToQQ.root
+TTZToLLNuNu_M-10.root
+TTZToLLNuNu_M-10_ext2.root
+TTZToQQ.root
+WJetsToLNu_HT_100To200_13TeV.root
+WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+WJetsToLNu_HT_1200To2500_13TeV.root
+WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV.root
+WJetsToLNu_HT_200To400_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+WJetsToLNu_HT_2500ToInf_13TeV.root
+WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+WJetsToLNu_HT_400To600_13TeV.root
+WJetsToLNu_HT_400To600_13TeV_ext1.root
+WJetsToLNu_HT_600To800_13TeV.root
+WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+WJetsToLNu_HT_70To100_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV_ext1.root
+WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WWTo2L2Nu_13TeV_powheg.root
+WWTo4Q_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg_ext.root
+WWW_4F_13TeV_amcatnlo_pythia8.root
+WWZ_13TeV_amcatnlo_pythia8.root
+WW_13TeV_pythia8.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root
+WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WZToLNu2Q_13TeV_powheg_pythia8.root
+WZ_13TeV_pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZZTo2L2Nu_13TeV_powheg_pythia8.root
+ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZZ_13TeV_amcatnlo_pythia8.root
+ZZ_13TeV_pythia8.root
+ZZto4L_13TeV_amcatnloFXFX_pythia8.root
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016/
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+SingleElectron.root
+SingleMuon.root
+Summer16_ST_s_channel_4f_leptonDecays.root
+Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+TTTo2L2Nu_powheg_pythia8.root
+TTToSemilepton_powheg.root
+TTWJetsToLNu.root
+TTWJetsToQQ.root
+TTZToLLNuNu_M-10.root
+TTZToQQ.root
+WJetsToLNu_HT_100To200_13TeV.root
+WJetsToLNu_HT_1200To2500_13TeV.root
+WJetsToLNu_HT_200To400_13TeV.root
+WJetsToLNu_HT_2500ToInf_13TeV.root
+WJetsToLNu_HT_400To600_13TeV.root
+WJetsToLNu_HT_600To800_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV.root
+WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+rm: cannot remove `ouputPath/*': No such file or directory
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleElectron.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleElectron.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleElectron.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleMuon.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleMuon.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleMuon.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_100To200_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_100To200_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_100To200_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_200To400_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_200To400_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_200To400_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_400To600_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_400To600_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_400To600_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_600To800_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_600To800_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_600To800_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_800To1200_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_800To1200_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_800To1200_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_1200To2500_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_1200To2500_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_1200To2500_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_2500ToInf_13TeV.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_2500ToInf_13TeV.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_2500ToInf_13TeV.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_s_channel_4f_leptonDecays.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_s_channel_4f_leptonDecays.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_s_channel_4f_leptonDecays.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTTo2L2Nu_powheg_pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTTo2L2Nu_powheg_pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTTo2L2Nu_powheg_pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTToSemilepton_powheg.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTToSemilepton_powheg.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTToSemilepton_powheg.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToLNu.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToLNu.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToLNu.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToQQ.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToQQ.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToQQ.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToLLNuNu_M-10.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToLLNuNu_M-10.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToLLNuNu_M-10.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToQQ.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToQQ.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToQQ.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+_asahmed@cmslpc35:To_Hadd_Flat_nTuples\[asahmed@cmslpc35 To_Hadd_Flat_nTuples]$ python: error while loading shared libraries: libpython2.7.so.1.0: cannot open shared object file: No such file or directory
+_asahmed@cmslpc27:To_Hadd_Flat_nTuples\[asahmed@cmslpc27 To_Hadd_Flat_nTuples]$ cmsenv
+_asahmed@cmslpc27:To_Hadd_Flat_nTuples\[asahmed@cmslpc27 To_Hadd_Flat_nTuples]$ sh hadd_nTuples.sh 
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.root
+DYJetsToLL_M-50_amcatnlo_1.root
+DYJetsToLL_M-50_amcatnlo_2.root
+DYJetsToLL_M-50_amcatnlo_3.root
+DYJetsToLL_M-50_amcatnlo_4.root
+DYJetsToLL_M-50_amcatnlo_5.root
+DYJetsToLL_M-50_amcatnlo_6.root
+DYJetsToLL_M-50_amcatnlo_7.root
+DYToLL_0J_13TeV-amcatnloFXFX-pythia8.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.root
+Hadd_Files_2016
+QCD_HT1000to1500_13TeV.root
+QCD_HT1000to1500_13TeV_ext.root
+QCD_HT100to200_13TeV_1.root
+QCD_HT100to200_13TeV_2.root
+QCD_HT100to200_13TeV_3.root
+QCD_HT100to200_13TeV_4.root
+QCD_HT100to200_13TeV_5.root
+QCD_HT100to200_13TeV_6.root
+QCD_HT1500to2000_13TeV.root
+QCD_HT1500to2000_13TeV_ext.root
+QCD_HT2000toInf_13TeV.root
+QCD_HT2000toInf_13TeV_ext.root
+QCD_HT200to300_13TeV.root
+QCD_HT200to300_13TeV_ext_1.root
+QCD_HT200to300_13TeV_ext_2.root
+QCD_HT300to500_13TeV.root
+QCD_HT300to500_13TeV_ext.root
+QCD_HT500to700_13TeV.root
+QCD_HT500to700_13TeV_ext_1.root
+QCD_HT500to700_13TeV_ext_2.root
+QCD_HT500to700_13TeV_ext_3.root
+QCD_HT50to100_13TeV.root
+QCD_HT700to1000_13TeV.root
+QCD_HT700to1000_13TeV_ext.root
+ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+SingleElectronRun2016F_03Feb2017_v1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_2.root
+SingleElectronRun2016H_03Feb2017_ver3_v1.root
+SingleElectron_Run2016B-03Feb2017_ver1-v1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_2.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_3.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_4.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_5.root
+SingleElectron_Run2016C-03Feb2017-v1.root
+SingleElectron_Run2016D-03Feb2017-v1_1.root
+SingleElectron_Run2016D-03Feb2017-v1_2.root
+SingleElectron_Run2016D-03Feb2017-v1_3.root
+SingleElectron_Run2016E-03Feb2017-v1_1.root
+SingleElectron_Run2016E-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_1.root
+SingleElectron_Run2016G-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_3.root
+SingleMuonRun2016B_03Feb2017_ver1_v1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_2.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_3.root
+SingleMuonRun2016C_03Feb2017_v1.root
+SingleMuonRun2016D_03Feb2017_v1_1.root
+SingleMuonRun2016D_03Feb2017_v1_2.root
+SingleMuonRun2016E_03Feb2017_v1_1.root
+SingleMuonRun2016E_03Feb2017_v1_2.root
+SingleMuonRun2016F_03Feb2017_v1_1.root
+SingleMuonRun2016F_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_1.root
+SingleMuonRun2016G_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_1.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_2.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver3_v1.root
+Summer16_ST_s_channel_4f_leptonDecays.root
+Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+TTTo2L2Nu_powheg.root
+TTTo2L2Nu_powheg_pythia8.root
+TTToSemilepton_powheg_1.root
+TTToSemilepton_powheg_2.root
+TTToSemilepton_powheg_3.root
+TTToSemilepton_powheg_4.root
+TTToSemilepton_powheg_5.root
+TTToSemilepton_powheg_6.root
+TTWJetsToLNu_ext1.root
+TTWJetsToLNu_ext2.root
+TTWJetsToQQ.root
+TTZToLLNuNu_M-10.root
+TTZToLLNuNu_M-10_ext2.root
+TTZToQQ.root
+WJetsToLNu_HT_100To200_13TeV.root
+WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+WJetsToLNu_HT_1200To2500_13TeV.root
+WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV.root
+WJetsToLNu_HT_200To400_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+WJetsToLNu_HT_2500ToInf_13TeV.root
+WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+WJetsToLNu_HT_400To600_13TeV.root
+WJetsToLNu_HT_400To600_13TeV_ext1.root
+WJetsToLNu_HT_600To800_13TeV.root
+WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+WJetsToLNu_HT_70To100_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV_ext1.root
+WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WWTo2L2Nu_13TeV_powheg.root
+WWTo4Q_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg_ext.root
+WWW_4F_13TeV_amcatnlo_pythia8.root
+WWZ_13TeV_amcatnlo_pythia8.root
+WW_13TeV_pythia8.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root
+WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WZToLNu2Q_13TeV_powheg_pythia8.root
+WZ_13TeV_pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZZTo2L2Nu_13TeV_powheg_pythia8.root
+ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZZ_13TeV_amcatnlo_pythia8.root
+ZZ_13TeV_pythia8.root
+ZZto4L_13TeV_amcatnloFXFX_pythia8.root
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016/
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+SingleElectron.root
+SingleMuon.root
+Summer16_ST_s_channel_4f_leptonDecays.root
+Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+TTTo2L2Nu_powheg_pythia8.root
+TTToSemilepton_powheg.root
+TTWJetsToLNu.root
+TTWJetsToQQ.root
+TTZToLLNuNu_M-10.root
+TTZToQQ.root
+WJetsToLNu_HT_100To200_13TeV.root
+WJetsToLNu_HT_1200To2500_13TeV.root
+WJetsToLNu_HT_200To400_13TeV.root
+WJetsToLNu_HT_2500ToInf_13TeV.root
+WJetsToLNu_HT_400To600_13TeV.root
+WJetsToLNu_HT_600To800_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV.root
+WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+_asahmed@cmslpc27:To_Hadd_Flat_nTuples\[asahmed@cmslpc27 To_Hadd_Flat_nTuples]$ sh hadd_nTuples.sh
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.root
+DYJetsToLL_M-50_amcatnlo_1.root
+DYJetsToLL_M-50_amcatnlo_2.root
+DYJetsToLL_M-50_amcatnlo_3.root
+DYJetsToLL_M-50_amcatnlo_4.root
+DYJetsToLL_M-50_amcatnlo_5.root
+DYJetsToLL_M-50_amcatnlo_6.root
+DYJetsToLL_M-50_amcatnlo_7.root
+DYToLL_0J_13TeV-amcatnloFXFX-pythia8.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.root
+Hadd_Files_2016
+QCD_HT1000to1500_13TeV.root
+QCD_HT1000to1500_13TeV_ext.root
+QCD_HT100to200_13TeV_1.root
+QCD_HT100to200_13TeV_2.root
+QCD_HT100to200_13TeV_3.root
+QCD_HT100to200_13TeV_4.root
+QCD_HT100to200_13TeV_5.root
+QCD_HT100to200_13TeV_6.root
+QCD_HT1500to2000_13TeV.root
+QCD_HT1500to2000_13TeV_ext.root
+QCD_HT2000toInf_13TeV.root
+QCD_HT2000toInf_13TeV_ext.root
+QCD_HT200to300_13TeV.root
+QCD_HT200to300_13TeV_ext_1.root
+QCD_HT200to300_13TeV_ext_2.root
+QCD_HT300to500_13TeV.root
+QCD_HT300to500_13TeV_ext.root
+QCD_HT500to700_13TeV.root
+QCD_HT500to700_13TeV_ext_1.root
+QCD_HT500to700_13TeV_ext_2.root
+QCD_HT500to700_13TeV_ext_3.root
+QCD_HT50to100_13TeV.root
+QCD_HT700to1000_13TeV.root
+QCD_HT700to1000_13TeV_ext.root
+ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+SingleElectronRun2016F_03Feb2017_v1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_2.root
+SingleElectronRun2016H_03Feb2017_ver3_v1.root
+SingleElectron_Run2016B-03Feb2017_ver1-v1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_2.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_3.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_4.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_5.root
+SingleElectron_Run2016C-03Feb2017-v1.root
+SingleElectron_Run2016D-03Feb2017-v1_1.root
+SingleElectron_Run2016D-03Feb2017-v1_2.root
+SingleElectron_Run2016D-03Feb2017-v1_3.root
+SingleElectron_Run2016E-03Feb2017-v1_1.root
+SingleElectron_Run2016E-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_1.root
+SingleElectron_Run2016G-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_3.root
+SingleMuonRun2016B_03Feb2017_ver1_v1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_2.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_3.root
+SingleMuonRun2016C_03Feb2017_v1.root
+SingleMuonRun2016D_03Feb2017_v1_1.root
+SingleMuonRun2016D_03Feb2017_v1_2.root
+SingleMuonRun2016E_03Feb2017_v1_1.root
+SingleMuonRun2016E_03Feb2017_v1_2.root
+SingleMuonRun2016F_03Feb2017_v1_1.root
+SingleMuonRun2016F_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_1.root
+SingleMuonRun2016G_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_1.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_2.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver3_v1.root
+Summer16_ST_s_channel_4f_leptonDecays.root
+Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+TTTo2L2Nu_powheg.root
+TTTo2L2Nu_powheg_pythia8.root
+TTToSemilepton_powheg_1.root
+TTToSemilepton_powheg_2.root
+TTToSemilepton_powheg_3.root
+TTToSemilepton_powheg_4.root
+TTToSemilepton_powheg_5.root
+TTToSemilepton_powheg_6.root
+TTWJetsToLNu_ext1.root
+TTWJetsToLNu_ext2.root
+TTWJetsToQQ.root
+TTZToLLNuNu_M-10.root
+TTZToLLNuNu_M-10_ext2.root
+TTZToQQ.root
+WJetsToLNu_HT_100To200_13TeV.root
+WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+WJetsToLNu_HT_1200To2500_13TeV.root
+WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV.root
+WJetsToLNu_HT_200To400_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+WJetsToLNu_HT_2500ToInf_13TeV.root
+WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+WJetsToLNu_HT_400To600_13TeV.root
+WJetsToLNu_HT_400To600_13TeV_ext1.root
+WJetsToLNu_HT_600To800_13TeV.root
+WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+WJetsToLNu_HT_70To100_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV_ext1.root
+WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WWTo2L2Nu_13TeV_powheg.root
+WWTo4Q_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg_ext.root
+WWW_4F_13TeV_amcatnlo_pythia8.root
+WWZ_13TeV_amcatnlo_pythia8.root
+WW_13TeV_pythia8.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root
+WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WZToLNu2Q_13TeV_powheg_pythia8.root
+WZ_13TeV_pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZZTo2L2Nu_13TeV_powheg_pythia8.root
+ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZZ_13TeV_amcatnlo_pythia8.root
+ZZ_13TeV_pythia8.root
+ZZto4L_13TeV_amcatnloFXFX_pythia8.root
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016/
+rm: cannot remove `/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//*': No such file or directory
+_asahmed@cmslpc27:To_Hadd_Flat_nTuples\[asahmed@cmslpc27 To_Hadd_Flat_nTuples]$ vi hadd_nTuples.sh 
+[?1049h[?1h=[1;24r[34l[34h[?25h[23m[24m[0m[H[J[?25l[24;1H"hadd_nTuples.sh" 77L, 6408C[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+[33mecho[0m[31m [0m[33m"[0m[35m$inputPath[0m[33m"
+ls[0m [35m$inputPath[0m
+[33mecho[0m[31m [0m[33m"[0m[35m$outputPath[0m[33m"
+ls[0m [35m$outputPath[0m
+[33mrm[0m [35m$outputPath[0m/*
+[34m#
+##VBF_EWK
+#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWK_LL[14;1HO_SM*
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LO__[17;1HSM*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LO__[20;1HSM*
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SMM[22;1H*
+#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_SM*[0m[24;128H9,1[11CTop[9;1H[34h[?25h[?25l[24;128H10,1[10;1H[34h[?25h[?25l[24;1H[1m-- VISUAL BLOCK --[0m[24;19H[K[24;128H10,1[10CTop[10;1H[34h[?25h[?25l[7m[34m#[0m[24;129H1[11;1H[34h[?25h[?25l[7m[34m#[0m[24;129H2[12;1H[34h[?25h[?25l[7m[34m#[0m[24;129H3[13;1H[34h[?25h[?25l[7m[34m#[0m[143C[34mLL[14;1HO[0m[24;129H4[15;1H[34h[?25h[?25l[7m[34m#[0m[24;129H5[16;1H[34h[?25h[?25l[7m[34m#[0m[143C[34m__[17;1HS[0m[24;129H6[18;1H[34h[?25h[?25l[7m[34m#[0m[24;129H7[19;1H[34h[?25h[?25l[7m[34m#[0m[143C[34m__[20;1HS[0m[24;129H8[21;1H[34h[?25h[?25l[7m[34m#[0m[143C[34mMM[22;1H*[0m[24;129H9[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_SM*[0m[24;128H[K[24;128H20,1[11C1%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#[0m[24;129H1[13C3[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m##VBF_aQGC[0m[24;129H2[13C5[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#[0m[24;129H3[13C6[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[24;129H4[13C8[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWKK[23;1H_LO_aQGC*[0m[24;129H5[12C11[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[21;1H[7m[34m#[0m[143C[34mKK[22;1H_
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[24;129H6[13C3[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LL[23;1HO_aQGC*[0m[24;129H7[13C6[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[21;1H[7m[34m#[0m[143C[34mLL[22;1HO
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[24;129H8[13C8[23;1H[34h[?25h[?25l[1;23r[1;1H[3M[1;24r[20;1H[7m[34m#[0m
+[34m#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LL[22;1HO_aQGC*
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO_[0m[23;1H[1m[34m@                                                                                                                                                [0m[24;128H[K[24;128H29,1[10C21%[21;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[20;1H[7m[34m#[0m[143C[34mLL[21;1HO
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO__[23;1HaQGC*[0m[24;128H30[13C2[22;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[20;1H[7m[34m#[0m[143C[34m__[21;1Ha
+#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC*
+#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC*[0m[24;129H1[13C5[22;1H[34h[?25h[?25l[7m[34m#[0m[24;129H2[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#[0m[24;129H3[13C6[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m##VBF_QCD
+#[0m[24;129H4[13C8[22;1H[34h[?25h[?25l[7m[34m#[0m[24;129H5[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_QCD_LO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_QCD_L[0m[23;1H[1m[34m@                                                                                                                                                [0m[24;129H6[12C30[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_QCD_LL[23;1HO_SM*[0m[24;129H7[13C2[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[21;1H[7m[34m#[0m[143C[34mLL[22;1HO
+#hadd $outputPath/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_QCD_LO_SM*[0m[24;128H[K[24;128H38,1[10C33%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_QCD_LO__[23;1HSM*[0m[24;129H9[13C6[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[21;1H[7m[34m#[0m[143C[34m__[22;1HS
+#hadd $outputPath/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_QCD_LO_SM*[0m[24;128H40[13C8[23;1H[34h[?25h[?25l[1;23r[1;1H[3M[1;24r[20;1H[7m[34m#[0m
+[34m#hadd $outputPath/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_QCD_LO__[22;1HSM*
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_QCD_LO_SM[0m[23;1H[1m[34m@                                                                                                                                                [0m[24;129H1[12C40[21;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[20;1H[7m[34m#[0m[143C[34m__[21;1HS
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_QCD_LO_SMM[23;1H*[0m[24;129H2[13C2[22;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[20;1H[7m[34m#[0m[143C[34mMM[21;1H*
+#hadd $outputPath/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_QCD_LO_SM*
+#hadd $outputPath/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_QCD_LO_SM*[0m[24;129H3[13C5[22;1H[34h[?25h[?25l[7m[34m#[0m[24;128H[K[24;128H44,1[10C45%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m##SingleElectron/Muon[0m[24;128H[K[24;128H45,1[10C46%[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#
+#hadd $outputPath/SingleElectron.root $inputPath/SingleElectron*[0m[24;129H6[13C9[22;1H[34h[?25h[?25l[7m[34m#[0m[24;129H7[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/SingleMuon.root $inputPath/SingleMuon*
+#[0m[24;129H8[12C51[22;1H[34h[?25h[?25l[7m[34m#[0m[24;129H9[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m##W+Jets[0m[24;128H50[13C3[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/WJetsToLNu_HT_100To200_13TeV.root $inputPath/WJetsToLNu_HT_100To*[0m[24;129H1[13C5[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/WJetsToLNu_HT_200To400_13TeV.root $inputPath/WJetsToLNu_HT_200T*[0m[24;129H2[13C6[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/WJetsToLNu_HT_400To600_13TeV.root $inputPath/WJetsToLNu_HT_400T*[0m[24;129H3[13C8[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/WJetsToLNu_HT_600To800_13TeV.root $inputPath/WJetsToLNu_HT_600T*[0m[24;129H4[12C60[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/WJetsToLNu_HT_800To1200_13TeV.root $inputPath/WJetsToLNu_HT_800T*[0m[24;129H5[13C2[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/WJetsToLNu_HT_1200To2500_13TeV.root $inputPath/WJetsToLNu_HT_1200T*
+#hadd $outputPath/WJetsToLNu_HT_2500ToInf_13TeV.root $inputPath/WJetsToLNu_HT_2500T*[0m[24;129H6[13C4[22;1H[34h[?25h[?25l[7m[34m#[0m[24;129H7[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#[0m[24;129H8[13C6[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m##Top
+#[0m[24;129H9[13C9[22;1H[34h[?25h[?25l[7m[34m#[0m[24;128H60[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root $inputPath/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV*[0m[24;129H1[12C71[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root $inputPath/ST_tW_top_5f_NoFullyHadronicDecays_13TeV*
+#hadd $outputPath/Summer16_ST_s_channel_4f_leptonDecays.root $inputPath/Summer16_ST_s_channel_4f_leptonDecay*[0m[24;129H2[13C4[22;1H[34h[?25h[?25l[7m[34m#[0m[24;129H3[23;1H[34h[?25h[?25l[1;23r[1;1H[2M[1;24r[21;1H[7m[34m#[0m
+[34m#hadd $outputPath/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root $inputPath/Summer16_ST_t_channel_antitop_4f_inclusiveDecayy[23;1H*[0m[24;128H[K[24;128H64,1[10C76%[22;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[21;1H[7m[34m#[0m[143C[34myy[22;1H*
+#hadd $outputPath/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root $inputPath/Summer16_ST_t_channel_top_4f_inclusiveDecays*[0m[24;129H5[13C8[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/TTTo2L2Nu_powheg_pythia8.root $inputPath/TTTo2L2Nu_powheg_pythia8.root*[0m[24;129H6[12C80[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/TTToSemilepton_powheg.root $inputPath/TTToSemilepto*[0m[24;129H7[13C1[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/TTWJetsToLNu.root $inputPath/TTWJetsToLNu*[0m[24;129H8[13C3[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/TTWJetsToQQ.root $inputPath/TTWJetsToQQ*[0m[24;129H9[13C5[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/TTZToLLNuNu_M-10.root $inputPath/TTZToLLNuNu_M*[0m[24;128H70[13C7[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/TTZToQQ.root $inputPath/TTZToQQ.root*[0m[24;129H1[13C9[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#[0m[24;129H2[12C90[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m##DYJets[0m[24;128H[K[24;128H73,1[10C92%[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root $inputPath/DY1JetsToLL_M*[0m[24;129H4[13C4[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root $inputPath/DY2JetsToLL_M*[0m[24;129H5[13C6[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root $inputPath/DY3JetsToLL_M*[0m[24;129H6[13C8[23;1H[34h[?25h[?25l[1;23r[23;1H
+[1;24r[22;1H[7m[34m#[0m
+[34m#hadd $outputPath/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root $inputPath/DY4JetsToLL_M*[0m[24;129H7[12CBot[23;1H[34h[?25h[?25l[24;128H[K[24;128H77,1[10CBot[23;1H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[23m[24m[0m[H[J[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+[33mecho[0m[31m [0m[33m"[0m[35m$inputPath[0m[33m"
+ls[0m [35m$inputPath[0m
+[33mecho[0m[31m [0m[33m"[0m[35m$outputPath[0m[33m"
+ls[0m [35m$outputPath[0m
+[33mrm[0m [35m$outputPath[0m/*
+
+[34m#VBF_EWK[0m
+hadd [35m$outputPath[0m/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusTo2JZTo2LJJ_EWK_LO_SM*
+hadd [35m$outputPath[0m/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuWminusTo2JJJ_EWK_LOO[14;1H_SM*
+hadd [35m$outputPath[0m/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuZTo2JJJ_EWK_LO_SM*
+hadd [35m$outputPath[0m/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JWminusToLNuJJ_EWK_LO_SS[17;1HM*
+hadd [35m$outputPath[0m/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JZTo2LJJ_EWK_LO_SM*
+hadd [35m$outputPath[0m/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWminusTo2JJJ_EWK_LO_SS[20;1HM*
+hadd [35m$outputPath[0m/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWplusTo2JJJ_EWK_LO_SM*[22;1Hhadd [35m$outputPath[0m/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuZTo2JJJ_EWK_LO_SM*
+hadd [35m$outputPath[0m/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/ZTo2LZTo2JJJ_EWK_LO_SM*[24;128H10,0-1[8CTop[10;1H[34h[?25h[?25l[24;128H[K[24;1H:[34h[?25hwq[?25l"hadd_nTuples.sh" 77L, 6340C written
+[?1l>[34h[?25h[?1049l_asahmed@cmslpc27:To_Hadd_Flat_nTuples\[asahmed@cmslpc27 To_Hadd_Flat_nTuples]$ ------------------------------------------------------------------------------
+                     ..::[1mPowered by CMS-LPC[22m::..                      
+
+   Hostname: cmslpc38.fnal.gov           OS Release: SLF 6.10 (Ramsey)         
+         IP: 131.225.189.130                 Subnet: 255.255.252.0             
+
+     Kernel: 2.6.32-754.28.1                   Arch: x86_64                    
+        RAM: 31.34 GiB                         Swap: 32.00 GiB                 
+      Cores: 24                             Virtual: physical                  
+
+ SSH Logins: 7                             Load Avg: 1.18 1.04 1.04            
+------------------------------------------------------------------------------
+   For information about computing at the LPC go to: lpc.fnal.gov/computing   
+------------------------------------------------------------------------------
+The documentation for LPC refactor is available here:
+https://uscms.org/uscms_at_work/computing/setup/condor_refactor.shtml
+------------------------------------------------------------------------------
+_asahmed@cmslpc38:To_Hadd_Flat_nTuples\[asahmed@cmslpc38 To_Hadd_Flat_nTuples]$ cmsenv
+_asahmed@cmslpc38:To_Hadd_Flat_nTuples\[asahmed@cmslpc38 To_Hadd_Flat_nTuples]$ sh hadd_nTuples.sh 
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8.root
+DYJetsToLL_M-50_amcatnlo_1.root
+DYJetsToLL_M-50_amcatnlo_2.root
+DYJetsToLL_M-50_amcatnlo_3.root
+DYJetsToLL_M-50_amcatnlo_4.root
+DYJetsToLL_M-50_amcatnlo_5.root
+DYJetsToLL_M-50_amcatnlo_6.root
+DYJetsToLL_M-50_amcatnlo_7.root
+DYToLL_0J_13TeV-amcatnloFXFX-pythia8.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_5.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_6.root
+DYToLL_1J_13TeV-amcatnloFXFX-pythia8_7.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_1.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_2.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_3.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_4.root
+DYToLL_2J_13TeV-amcatnloFXFX-pythia8_5.root
+Hadd_Files_2016
+QCD_HT1000to1500_13TeV.root
+QCD_HT1000to1500_13TeV_ext.root
+QCD_HT100to200_13TeV_1.root
+QCD_HT100to200_13TeV_2.root
+QCD_HT100to200_13TeV_3.root
+QCD_HT100to200_13TeV_4.root
+QCD_HT100to200_13TeV_5.root
+QCD_HT100to200_13TeV_6.root
+QCD_HT1500to2000_13TeV.root
+QCD_HT1500to2000_13TeV_ext.root
+QCD_HT2000toInf_13TeV.root
+QCD_HT2000toInf_13TeV_ext.root
+QCD_HT200to300_13TeV.root
+QCD_HT200to300_13TeV_ext_1.root
+QCD_HT200to300_13TeV_ext_2.root
+QCD_HT300to500_13TeV.root
+QCD_HT300to500_13TeV_ext.root
+QCD_HT500to700_13TeV.root
+QCD_HT500to700_13TeV_ext_1.root
+QCD_HT500to700_13TeV_ext_2.root
+QCD_HT500to700_13TeV_ext_3.root
+QCD_HT50to100_13TeV.root
+QCD_HT700to1000_13TeV.root
+QCD_HT700to1000_13TeV_ext.root
+ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_antitop_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+ST_tW_top_5f_inclusiveDecays_13TeV_powheg_pythia8_TuneCUETP8M2T4.root
+SingleElectronRun2016F_03Feb2017_v1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_1.root
+SingleElectronRun2016H_03Feb2017_ver2_v1_2.root
+SingleElectronRun2016H_03Feb2017_ver3_v1.root
+SingleElectron_Run2016B-03Feb2017_ver1-v1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_1.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_2.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_3.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_4.root
+SingleElectron_Run2016B-03Feb2017_ver2-v2_5.root
+SingleElectron_Run2016C-03Feb2017-v1.root
+SingleElectron_Run2016D-03Feb2017-v1_1.root
+SingleElectron_Run2016D-03Feb2017-v1_2.root
+SingleElectron_Run2016D-03Feb2017-v1_3.root
+SingleElectron_Run2016E-03Feb2017-v1_1.root
+SingleElectron_Run2016E-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_1.root
+SingleElectron_Run2016G-03Feb2017-v1_2.root
+SingleElectron_Run2016G-03Feb2017-v1_3.root
+SingleMuonRun2016B_03Feb2017_ver1_v1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_1.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_2.root
+SingleMuonRun2016B_03Feb2017_ver2_v2_3.root
+SingleMuonRun2016C_03Feb2017_v1.root
+SingleMuonRun2016D_03Feb2017_v1_1.root
+SingleMuonRun2016D_03Feb2017_v1_2.root
+SingleMuonRun2016E_03Feb2017_v1_1.root
+SingleMuonRun2016E_03Feb2017_v1_2.root
+SingleMuonRun2016F_03Feb2017_v1_1.root
+SingleMuonRun2016F_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_1.root
+SingleMuonRun2016G_03Feb2017_v1_2.root
+SingleMuonRun2016G_03Feb2017_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_1.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_2.root
+SingleMuonRun2016H_03Feb2017_ver2_v1_3.root
+SingleMuonRun2016H_03Feb2017_ver3_v1.root
+Summer16_ST_s_channel_4f_leptonDecays.root
+Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+TTTo2L2Nu_powheg.root
+TTTo2L2Nu_powheg_pythia8.root
+TTToSemilepton_powheg_1.root
+TTToSemilepton_powheg_2.root
+TTToSemilepton_powheg_3.root
+TTToSemilepton_powheg_4.root
+TTToSemilepton_powheg_5.root
+TTToSemilepton_powheg_6.root
+TTWJetsToLNu_ext1.root
+TTWJetsToLNu_ext2.root
+TTWJetsToQQ.root
+TTZToLLNuNu_M-10.root
+TTZToLLNuNu_M-10_ext2.root
+TTZToQQ.root
+WJetsToLNu_HT_100To200_13TeV.root
+WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+WJetsToLNu_HT_1200To2500_13TeV.root
+WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV.root
+WJetsToLNu_HT_200To400_13TeV_ext1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_1.root
+WJetsToLNu_HT_200To400_13TeV_ext1_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+WJetsToLNu_HT_2500ToInf_13TeV.root
+WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+WJetsToLNu_HT_400To600_13TeV.root
+WJetsToLNu_HT_400To600_13TeV_ext1.root
+WJetsToLNu_HT_600To800_13TeV.root
+WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+WJetsToLNu_HT_70To100_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV.root
+WJetsToLNu_HT_800To1200_13TeV_ext1.root
+WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WWTo2L2Nu_13TeV_powheg.root
+WWTo4Q_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg.root
+WWToLNuQQ_13TeV_powheg_ext.root
+WWW_4F_13TeV_amcatnlo_pythia8.root
+WWZ_13TeV_amcatnlo_pythia8.root
+WW_13TeV_pythia8.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_1.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_2.root
+WZTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8_3.root
+WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+WZToLNu2Q_13TeV_powheg_pythia8.root
+WZ_13TeV_pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+ZZTo2L2Nu_13TeV_powheg_pythia8.root
+ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo2Q2Nu_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZTo4Q_13TeV_amcatnloFXFX_madspin_pythia8.root
+ZZZ_13TeV_amcatnlo_pythia8.root
+ZZ_13TeV_pythia8.root
+ZZto4L_13TeV_amcatnloFXFX_pythia8.root
+/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016/
+rm: cannot remove `/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//*': No such file or directory
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleElectron.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectronRun2016F_03Feb2017_v1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectronRun2016H_03Feb2017_ver2_v1_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectronRun2016H_03Feb2017_ver2_v1_2.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectronRun2016H_03Feb2017_ver3_v1.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016B-03Feb2017_ver1-v1.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016B-03Feb2017_ver2-v2_1.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016B-03Feb2017_ver2-v2_2.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016B-03Feb2017_ver2-v2_3.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016B-03Feb2017_ver2-v2_4.root
+hadd Source file 10: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016B-03Feb2017_ver2-v2_5.root
+hadd Source file 11: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016C-03Feb2017-v1.root
+hadd Source file 12: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016D-03Feb2017-v1_1.root
+hadd Source file 13: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016D-03Feb2017-v1_2.root
+hadd Source file 14: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016D-03Feb2017-v1_3.root
+hadd Source file 15: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016E-03Feb2017-v1_1.root
+hadd Source file 16: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016E-03Feb2017-v1_2.root
+hadd Source file 17: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016G-03Feb2017-v1_1.root
+hadd Source file 18: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016G-03Feb2017-v1_2.root
+hadd Source file 19: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleElectron_Run2016G-03Feb2017-v1_3.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleElectron.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleMuon.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016B_03Feb2017_ver1_v1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016B_03Feb2017_ver2_v2_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016B_03Feb2017_ver2_v2_2.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016B_03Feb2017_ver2_v2_3.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016C_03Feb2017_v1.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016D_03Feb2017_v1_1.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016D_03Feb2017_v1_2.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016E_03Feb2017_v1_1.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016E_03Feb2017_v1_2.root
+hadd Source file 10: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016F_03Feb2017_v1_1.root
+hadd Source file 11: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016F_03Feb2017_v1_2.root
+hadd Source file 12: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016G_03Feb2017_v1_1.root
+hadd Source file 13: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016G_03Feb2017_v1_2.root
+hadd Source file 14: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016G_03Feb2017_v1_3.root
+hadd Source file 15: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016H_03Feb2017_ver2_v1_1.root
+hadd Source file 16: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016H_03Feb2017_ver2_v1_2.root
+hadd Source file 17: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016H_03Feb2017_ver2_v1_3.root
+hadd Source file 18: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/SingleMuonRun2016H_03Feb2017_ver3_v1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//SingleMuon.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_100To200_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext1_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext1_2.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext1_3.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext1_4.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext1_5.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext1_6.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_1.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_2.root
+hadd Source file 10: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_3.root
+hadd Source file 11: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_4.root
+hadd Source file 12: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_5.root
+hadd Source file 13: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_6.root
+hadd Source file 14: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_7.root
+hadd Source file 15: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_100To200_13TeV_ext2_8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_100To200_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_200To400_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext1_1.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext1_2.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext2.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext2_1.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext2_2.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_200To400_13TeV_ext2_3.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_200To400_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_400To600_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_400To600_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_400To600_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_400To600_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_600To800_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_600To800_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_600To800_13TeV_ext1_1.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_600To800_13TeV_ext1_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_600To800_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_800To1200_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_800To1200_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_800To1200_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_800To1200_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_1200To2500_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_1200To2500_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_1200To2500_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_1200To2500_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_2500ToInf_13TeV.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_2500ToInf_13TeV.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/WJetsToLNu_HT_2500ToInf_13TeV_ext1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WJetsToLNu_HT_2500ToInf_13TeV.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_antitop_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//ST_tW_top_5f_NoFullyHadronicDecays_13TeV_powheg_TuneCUETP8M1.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_s_channel_4f_leptonDecays.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Summer16_ST_s_channel_4f_leptonDecays.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_s_channel_4f_leptonDecays.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_antitop_4f_inclusiveDecays_TuneCUETP8M2T4.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//Summer16_ST_t_channel_top_4f_inclusiveDecays_TuneCUETP8M2T4.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTTo2L2Nu_powheg_pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTTo2L2Nu_powheg_pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTTo2L2Nu_powheg_pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTToSemilepton_powheg.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTToSemilepton_powheg_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTToSemilepton_powheg_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTToSemilepton_powheg_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTToSemilepton_powheg_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTToSemilepton_powheg_5.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTToSemilepton_powheg_6.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTToSemilepton_powheg.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToLNu.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTWJetsToLNu_ext1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTWJetsToLNu_ext2.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToLNu.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToQQ.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTWJetsToQQ.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTWJetsToQQ.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToLLNuNu_M-10.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTZToLLNuNu_M-10.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTZToLLNuNu_M-10_ext2.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToLLNuNu_M-10.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToQQ.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/TTZToQQ.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//TTZToQQ.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+hadd Source file 6: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_6.root
+hadd Source file 7: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_7.root
+hadd Source file 8: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_8.root
+hadd Source file 9: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_9.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY1JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+hadd Source file 3: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_3.root
+hadd Source file 4: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_4.root
+hadd Source file 5: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_5.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY2JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_1.root
+hadd Source file 2: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_2.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY3JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root:/
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root
+hadd Target path: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//DY4JetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8.root:/
+_asahmed@cmslpc38:To_Hadd_Flat_nTuples\[asahmed@cmslpc38 To_Hadd_Flat_nTuples]$ 

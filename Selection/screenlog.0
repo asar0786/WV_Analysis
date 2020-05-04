@@ -1,0 +1,333 @@
+------------------------------------------------------------------------------
+                     ..::[1mPowered by CMS-LPC[22m::..                      
+
+   Hostname: cmslpc29.fnal.gov           OS Release: SLF 6.10 (Ramsey)         
+         IP: 131.225.190.56                  Subnet: 255.255.252.0             
+
+     Kernel: 2.6.32-754.28.1                   Arch: x86_64                    
+        RAM: 31.34 GiB                         Swap: 32.00 GiB                 
+      Cores: 24                             Virtual: physical                  
+
+ SSH Logins: 7                             Load Avg: 10.0 10.01 10.0           
+------------------------------------------------------------------------------
+   For information about computing at the LPC go to: lpc.fnal.gov/computing   
+------------------------------------------------------------------------------
+The documentation for LPC refactor is available here:
+https://uscms.org/uscms_at_work/computing/setup/condor_refactor.shtml
+------------------------------------------------------------------------------
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ cmsenv
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ sh hadd.sh 
+rm: cannot remove `bin': Is a directory
+rm: cannot remove `data': Is a directory
+rm: cannot remove `interface': Is a directory
+rm: cannot remove `log': Is a directory
+rm: cannot remove `src': Is a directory
+rm: cannot remove `/eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016/': Is a directory
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+hadd Target file: /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root
+hadd compression setting for all ouput: 1
+Error in <TFile::TFile>: file /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root already exists
+Error in <TFileMerger::OutputFile>: cannot open the MERGER output file 
+hadd error opening target file (does /eos/uscms/store/user/asahmed/WV_2016_flatntuples/Hadd_Files_2016//WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root exist?).
+Pass "-f" argument to force re-creation of output file.
+^Z
+Suspended
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ sh hadd.sh[10Dcmsenv[K[6Dscreen -L[9Dvi hadd.sh
+[?1049h[?1h=[1;20r[34l[34h[?25h[23m[24m[0m[H[J[?25l[20;1H"hadd.sh" [New File][2;1H[1m[34m~                                                                                         [3;1H~                                                                                         [4;1H~                                                                                         [5;1H~                                                                                         [6;1H~                                                                                         [7;1H~                                                                                         [8;1H~                                                                                         [9;1H~                                                                                         [10;1H~                                                                                         [11;1H~                                                                                         [12;1H~                                                                                         [13;1H~                                                                                         [14;1H~                                                                                         [15;1H~                                                                                         [16;1H~                                                                                         [17;1H~                                                                                         [18;1H~                                                                                         [19;1H~                                                                                         [0m[20;73H0,0-1[9CAll[1;1H[34h[?25h[?25l[20;1H[K[20;1H:[34h[?25hq[?25l[20;1H[K[20;1H[?1l>[34h[?25h[?1049l_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34minterface[0m  [01;34mlog[0m  screenlog.0  [01;34msrc[0m
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git branch
+[?1h=* [32mSelection_Asar[m[m
+  master[m[m
+[K[?1l>_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git pull
+Enter passphrase for key '/uscms/home/asahmed/.ssh/id_rsa': 
+Enter passphrase for key '/uscms/home/asahmed/.ssh/id_rsa': 
+Enter passphrase for key '/uscms/home/asahmed/.ssh/id_rsa': 
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ 
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ 
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git pull[K[K[K[K[K[K[Kgit remote
+origin
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git remote -v
+origin	git@github.com:asar0786/WV_Analysis.git (fetch)
+origin	git@github.com:asar0786/WV_Analysis.git (push)
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git pull origin
+Enter passphrase for key '/uscms/home/asahmed/.ssh/id_rsa': 
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git pull origin[11Dremote -v[K[9Dpull origin[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch
+[?1h=* [32mSelection_Asar[m[m
+  master[m[m
+[K[?1l>_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git pull origin Selection_Asar
+Enter passphrase for key '/uscms/home/asahmed/.ssh/id_rsa': 
+Enter passphrase for key '/uscms/home/asahmed/.ssh/id_rsa': 
+From github.com:asar0786/WV_Analysis
+ * branch            Selection_Asar -> FETCH_HEAD
+Already up to date.
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34minterface[0m  [01;34mlog[0m  screenlog.0  [01;34msrc[0m
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ cd bin/
+_asahmed@cmslpc29:bin\[asahmed@cmslpc29 bin]$	ls
+Backup_Selection.cc  BuildFile.xml  Selection.cc  autorun.sh
+_asahmed@cmslpc29:bin\[asahmed@cmslpc29 bin]$	cd ..
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+[0m[01;34mbin[0m  [01;34mdata[0m  [01;34minterface[0m  [01;34mlog[0m  screenlog.0  [01;34msrc[0m
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git log --diff-filter=D --summary
+[?1h=[K[?1l>_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ git ls-files -d | xargs git checkout --
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+Asar.root           [0m[01;34mdata[0m             screenlog.0    tosubmit2016.dat
+BuildFile.xml       [01;32mdocker_stderror[0m  [01;34msrc[0m            tosubmit2016_special.dat
+May_2_submit_2.jdl  [01;34minterface[0m        stub.jdl       tosubmit2017.dat
+README.md           [01;34mlog[0m              [01;32msubmitjobs.sh[0m
+Updated.root        output.root      test.dat
+[01;34mbin[0m                 [01;32mrunjob.sh[0m        test.root
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls -ltrh
+total 16M
+drwxr-xr-x 6 asahmed us_cms  317 Apr 15 11:36 [0m[01;34mdata[0m
+drwxr-xr-x 2 asahmed us_cms  196 Apr 30 13:12 [01;34minterface[0m
+drwxr-xr-x 2 asahmed us_cms   89 Apr 30 13:12 [01;34msrc[0m
+drwxr-xr-x 2 asahmed us_cms  40K May  2 15:51 [01;34mlog[0m
+drwxr-xr-x 2 asahmed us_cms  112 May  2 16:18 [01;34mbin[0m
+-rw-r--r-- 1 asahmed us_cms 4.2M May  3 17:03 Asar.root
+-rw-r--r-- 1 asahmed us_cms  281 May  3 17:03 BuildFile.xml
+-rw-r--r-- 1 asahmed us_cms 133K May  3 17:03 May_2_submit_2.jdl
+-rw-r--r-- 1 asahmed us_cms  422 May  3 17:03 README.md
+-rw-r--r-- 1 asahmed us_cms 5.3M May  3 17:03 Updated.root
+-rwxr-xr-x 1 asahmed us_cms    0 May  3 17:03 [01;32mdocker_stderror[0m
+-rw-r--r-- 1 asahmed us_cms 2.3M May  3 17:03 output.root
+-rwxr-xr-x 1 asahmed us_cms 1.2K May  3 17:03 [01;32mrunjob.sh[0m
+-rw-r--r-- 1 asahmed us_cms  101 May  3 17:03 stub.jdl
+-rwxr-xr-x 1 asahmed us_cms  945 May  3 17:03 [01;32msubmitjobs.sh[0m
+-rw-r--r-- 1 asahmed us_cms 3.2K May  3 17:03 test.dat
+-rw-r--r-- 1 asahmed us_cms 3.5M May  3 17:03 test.root
+-rw-r--r-- 1 asahmed us_cms 8.6K May  3 17:03 tosubmit2016.dat
+-rw-r--r-- 1 asahmed us_cms  376 May  3 17:03 tosubmit2016_special.dat
+-rw-r--r-- 1 asahmed us_cms 4.4K May  3 17:03 tosubmit2017.dat
+-rw-r--r-- 1 asahmed us_cms  11K May  3 17:03 screenlog.0
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ cd ..
+ls
+_asahmed@cmslpc29:WVJJAna\[asahmed@cmslpc29 WVJJAna]$ ls
+README.md  [0m[01;34mSelection[0m
+[m_asahmed@cmslpc29:WVJJAna\[asahmed@cmslpc29 WVJJAna]$ cd ..
+_asahmed@cmslpc29:src\[asahmed@cmslpc29 src]$	ls
+[0m[01;34mBaconAna[0m  [01;34mPlottint_WV[0m  [01;34mWVJJAna[0m
+[m_asahmed@cmslpc29:src\[asahmed@cmslpc29 src]$	cd Plottint_WV/
+_asahmed@cmslpc29:Plottint_WV\[asahmed@cmslpc29 Plottint_WV]$	ls
+[0m[01;34mWVJJAna[0m  hadd.sh
+[m_asahmed@cmslpc29:Plottint_WV\[asahmed@cmslpc29 Plottint_WV]$	cp hadd.sh ../
+BaconAna/    Plottint_WV/ WVJJAna/     
+_asahmed@cmslpc29:Plottint_WV\[asahmed@cmslpc29 Plottint_WV]$ cp hadd.sh ../WVJJAna/Selection/
+_asahmed@cmslpc29:Plottint_WV\[asahmed@cmslpc29 Plottint_WV]$	ls
+[0m[01;34mWVJJAna[0m  hadd.sh
+[m_asahmed@cmslpc29:Plottint_WV\[asahmed@cmslpc29 Plottint_WV]$	mv hadd.sh WVJJAna/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+_asahmed@cmslpc29:src\[asahmed@cmslpc29 src]$	ls
+[0m[01;34mBaconAna[0m  [01;34mPlottint_WV[0m  [01;34mWVJJAna[0m
+[m_asahmed@cmslpc29:src\[asahmed@cmslpc29 src]$	cd WVJJAna/
+README.md  Selection/ 
+_asahmed@cmslpc29:src\[asahmed@cmslpc29 src]$ cd WVJJAna/
+README.md  Selection/ 
+_asahmed@cmslpc29:src\[asahmed@cmslpc29 src]$ cd WVJJAna/Selection/
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+Asar.root           [0m[01;34mdata[0m             [01;32mrunjob.sh[0m      test.root
+BuildFile.xml       [01;32mdocker_stderror[0m  screenlog.0    tosubmit2016.dat
+May_2_submit_2.jdl  hadd.sh          [01;34msrc[0m            tosubmit2016_special.dat
+README.md           [01;34minterface[0m        stub.jdl       tosubmit2017.dat
+Updated.root        [01;34mlog[0m              [01;32msubmitjobs.sh[0m
+[01;34mbin[0m                 output.root      test.dat
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls -ltrh
+total 16M
+drwxr-xr-x 6 asahmed us_cms  317 Apr 15 11:36 [0m[01;34mdata[0m
+drwxr-xr-x 2 asahmed us_cms  196 Apr 30 13:12 [01;34minterface[0m
+drwxr-xr-x 2 asahmed us_cms   89 Apr 30 13:12 [01;34msrc[0m
+drwxr-xr-x 2 asahmed us_cms  40K May  2 15:51 [01;34mlog[0m
+drwxr-xr-x 2 asahmed us_cms  112 May  2 16:18 [01;34mbin[0m
+-rw-r--r-- 1 asahmed us_cms 4.2M May  3 17:03 Asar.root
+-rw-r--r-- 1 asahmed us_cms  281 May  3 17:03 BuildFile.xml
+-rw-r--r-- 1 asahmed us_cms 133K May  3 17:03 May_2_submit_2.jdl
+-rw-r--r-- 1 asahmed us_cms  422 May  3 17:03 README.md
+-rw-r--r-- 1 asahmed us_cms 5.3M May  3 17:03 Updated.root
+-rwxr-xr-x 1 asahmed us_cms    0 May  3 17:03 [01;32mdocker_stderror[0m
+-rw-r--r-- 1 asahmed us_cms 2.3M May  3 17:03 output.root
+-rwxr-xr-x 1 asahmed us_cms 1.2K May  3 17:03 [01;32mrunjob.sh[0m
+-rw-r--r-- 1 asahmed us_cms  101 May  3 17:03 stub.jdl
+-rwxr-xr-x 1 asahmed us_cms  945 May  3 17:03 [01;32msubmitjobs.sh[0m
+-rw-r--r-- 1 asahmed us_cms 3.2K May  3 17:03 test.dat
+-rw-r--r-- 1 asahmed us_cms 3.5M May  3 17:03 test.root
+-rw-r--r-- 1 asahmed us_cms 8.6K May  3 17:03 tosubmit2016.dat
+-rw-r--r-- 1 asahmed us_cms  376 May  3 17:03 tosubmit2016_special.dat
+-rw-r--r-- 1 asahmed us_cms 4.4K May  3 17:03 tosubmit2017.dat
+-rw-r--r-- 1 asahmed us_cms 4.8K May  3 17:04 hadd.sh
+-rw-r--r-- 1 asahmed us_cms  14K May  3 17:05 screenlog.0
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ vi hadd.sh
+[?1049h[?1h=[1;20r[34l[34h[?25h[23m[24m[0m[H[J[?25l[20;1H"hadd.sh" 51L, 4851C[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+
+[34m#hadd $outputPath/WJetsToLNu_HT_100To200_13TeV.root $inputPath/WJetsToLNu_HT_100To*
+#VBF_EWK
+#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythh[9;1Hia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgrapp[11;1Hh-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pytt[13;1Hhia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraphh[15;1H-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythii[17;1Ha8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraphh[19;1H-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM*[0m[20;73H1,1[11CTop[1;1H[34h[?25h[?25l[20;73H2[2;1H[34h[?25h[?25l[20;73H3[3;1H[34h[?25h[?25l[20;73H4[4;1H[34h[?25h[?25l[20;73H5,0-1[5;1H[34h[?25h[?25l[20;1H[1m-- INSERT --[0m[20;13H[K[20;73H5,1[11CTop[5;1H[34h[?25h[?25l[33mr[0m[20;75H2[5;2H[34h[?25h[?25l[33mm[0m[20;75H3[5;3H[34h[?25h[?25l[20;75H4[5;4H[34h[?25h[?25lo[20;75H5[5;5H[34h[?25h[?25lu[20;75H6[5;6H[34h[?25h[?25lp[20;75H7[5;7H[34h[?25h[?25lu[20;75H8[5;8H[34h[?25h[?25lt[20;75H9[5;9H[34h[?25h[?25l[5;8H[K[20;75H8[5;8H[34h[?25h[?25lP[20;75H9[5;9H[34h[?25h[?25la[20;75H10[5;10H[34h[?25h[?25lt[20;76H1[5;11H[34h[?25h[?25lh[20;76H2[5;12H[34h[?25h[?25l[20;76H1[5;11H[34h[?25h[?25l[20;76H0[5;10H[34h[?25h[?25l[20;75H9 [5;9H[34h[?25h[?25l[20;75H8[5;8H[34h[?25h[?25ltPath[20;75H9[5;9H[34h[?25h[?25l[20;75H10[5;10H[34h[?25h[?25l[20;76H1[5;11H[34h[?25h[?25l[20;76H3[5;13H[34h[?25h[?25l/[20;76H4[5;14H[34h[?25h[?25l*[20;76H5[5;15H[34h[?25h[20;1H[K[5;14H[?25l[20;73H5,14[10CTop[5;14H[34h[?25h[?25l[20;73H[K[20;1H:[34h[?25hw[?25l"hadd.sh" 51L, 4865C written[44C5,14[10CTop[20;73H[K[20;73H5,14[10CTop[5;14H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+[33mrm[0m ouputPath/*
+[34m#hadd $outputPath/WJetsToLNu_HT_100To200_13TeV.root $inputPath/WJetsToLNu_HT_100To*
+#VBF_EWK
+#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythii[9;1Ha8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraphh[11;1H-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythh[13;1Hia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph--[15;1Hpythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythiaa[17;1H8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph--[19;1Hpythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM*[0m[20;74H5,14[10CTop[5;14H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+[33mrm[0m ouputPath/*
+[34m#hadd $outputPath/WJetsToLNu_HT_100To200_13TeV.root $inputPath/WJetsToLNu_HT_100To*
+#VBF_EWK
+#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK__[9;1HLO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminuu[11;1HsTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWW[13;1HK_LO_SM*
+#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToo[15;1HLNuJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LOO[17;1H_SM*
+#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTT[19;1Ho2JJJ_EWK_LO_SM*[0m[20;115H5,14[10CTop[5;14H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+[33mrm[0m ouputPath/*
+[34m#hadd $outputPath/WJetsToLNu_HT_100To200_13TeV.root $inputPath/WJetsToLNu_HT_100To*
+#VBF_EWK
+#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJJ[10;1H_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_SMM[12;1H*
+#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EE[14;1HWK_LO_SM*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EE[17;1HWK_LO_SM*
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWKK[19;1H_LO_SM*[0m[20;122H5,14[10CTop[5;14H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m#!bin/bash[0m
+[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples
+[36moutputFolder[0m=Hadd_Files_2016/
+[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m
+[33mrm[0m ouputPath/*
+[34m#hadd $outputPath/WJetsToLNu_HT_100To200_13TeV.root $inputPath/WJetsToLNu_HT_100To*
+#VBF_EWK
+#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWK_LL[10;1HO_SM*
+#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_SM*
+#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LO__[13;1HSM*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_SM*
+#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LO__[16;1HSM*
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SMM[18;1H*
+#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_SM*[0m[20;128H5,14[10CTop[5;14H[34h[?25h[?25l[20;128H6[6;14H[34h[?25h[?25l[6;19r[19;1H
+[1;20r[19;1H[34m#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_SM*[0m[20;128H[K[20;128H6,1[11CTop[6;1H[34h[?25h[?25l[20;128H7[7;1H[34h[?25h[?25l[20;128H6[6;1H[34h[?25h[?25l[20;1H[1m-- INSERT --[0m[20;128H[K[20;128H6,1[11CTop[6;1H[34h[?25h[?25l[1C[34m#VBF_EWK[0m[20;130H2[6;2H[34h[?25h[20;1H[K[6;1H[?25l[20;128H6,1[11CTop[6;1H[34h[?25h[?25l[20;128H[K[20;1H:[34h[?25hw[?25l"hadd.sh" 50L, 4782C written[99C6,1[11CTop[20;128H[K[20;128H6,1[11CTop[6;1H[34h[?25h[?25l[20;128H7[7;1H[34h[?25h[?25l[20;128H8[8;1H[34h[?25h[?25l[20;128H9[10;1H[34h[?25h[?25l[20;128H10,1[11;1H[34h[?25h[?25l[20;129H1[13;1H[34h[?25h[?25l[20;129H2[14;1H[34h[?25h[?25l[20;129H3[16;1H[34h[?25h[?25l[20;129H4[18;1H[34h[?25h[?25l[20;129H5[19;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[34m##VBF_aQGC[0m[20;1H[K[20;128H16,1[11C2%[19;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H17,1[11C5%[19;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[18;1H[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWKK[19;1H_LO_aQGC*[0m[20;128H[K[20;128H18,1[10C11%[18;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[34m#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H19,1[10C13%[19;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[18;1H[34m#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LL[19;1HO_aQGC*[0m[20;128H[K[20;128H20,1[10C18%[18;1H[34h[?25h[?25l[20;128H19[17;1H[34h[?25h[?25l[20;129H8[15;1H[34h[?25h[?25l[20;129H7[14;1H[34h[?25h[?25l[20;129H6[13;1H[34h[?25h[?25l[20;129H5[12;1H[34h[?25h[?25l[20;129H4[11;1H[34h[?25h[?25l[20;129H3[9;1H[34h[?25h[?25l[20;129H2[7;1H[34h[?25h[?25l[20;129H1[6;1H[34h[?25h[?25l[20;129H0[4;1H[34h[?25h[?25l[20;128H9,1 [3;1H[34h[?25h[?25l[20;128H8[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*[0m[19;1H[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H7,1[11C16%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m##VBF_EWK[0m[20;128H[K[20;128H6,1[11C13%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[33mrm[0m ouputPath/*[20;128H[K[20;128H5,1[11C11%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m[19;1H[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H4,1[12C8%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[36moutputFolder[0m=Hadd_Files_2016/[20;128H[K[20;128H3,1[12C5%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples[20;128H[K[20;128H2,1[12C2%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#!bin/bash[0m[20;128H[K[20;128H1,1[11CTop[1;1H[34h[?25h[?25l[20;128H2[2;1H[34h[?25h[?25l[20;128H3[3;1H[34h[?25h[?25l[20;128H4[4;1H[34h[?25h[?25l[20;128H5[5;1H[34h[?25h[?25l[20;128H6[6;1H[34h[?25h[?25l[20;128H7[7;1H[34h[?25h[?25l[20;128H8[8;1H[34h[?25h[?25l[20;128H9[10;1H[34h[?25h[?25l[20;128H10,1[11;1H[34h[?25h[?25l[20;129H1[13;1H[34h[?25h[?25l[20;129H2[14;1H[34h[?25h[?25l[20;129H3[16;1H[34h[?25h[?25l[20;129H4[18;1H[34h[?25h[?25l[20;129H5[19;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[34m##VBF_aQGC[0m[20;128H[K[20;128H16,1[11C2%[19;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H17,1[11C5%[19;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[18;1H[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWKK[19;1H_LO_aQGC*[0m[20;128H[K[20;128H18,1[10C11%[18;1H[34h[?25h[?25l[20;129H7[17;1H[34h[?25h[?25l[20;129H6[16;1H[34h[?25h[?25l[20;1H[1m-- INSERT --[0m[20;128H[K[20;128H16,1[10C11%[16;1H[34h[?25h[?25l[17;19r[17;1H[L[1;20r[16;1H[K[17;1H[34m##VBF_aQGC[0m
+
+[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H17,1[10C10%[17;1H[34h[?25h[?25l[20;129H8[18;1H[34h[?25h[?25l[18;1H[K[19;1H[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[19;143H[K[20;129H9[19;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[18;1H[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWKK[19;1H_LO_aQGC*[0m[20;128H[K[20;128H20,1[10C15%[18;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[34m#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H21,1[10C18%[19;1H[34h[?25h[?25l[1;19r[1;1H[3M[1;20r[17;1H[34m#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LL[18;1HO_aQGC*
+#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H23,1[10C23%[19;1H[34h[?25h[?25l[1;19r[1;1H[5M[1;20r[15;1H[34m#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LL[16;1HO_aQGC*
+#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO__[18;1HaQGC*
+#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H25,1[10C31%[17;1H[34h[?25h[?25l[20;129H6[19;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[18;1H[34m#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC*
+##VBF_QCD[0m[20;128H[K[20;128H28,1[10C35%[19;1H[34h[?25h[?25l[1;19r[19;1H
+[1;20r[19;1Hhadd [35m$outputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM*[20;128H[K[20;128H29,1[10C37%[19;1H[34h[?25h[?25l[1;19r[1;1H[5M[1;20r[15;1Hhadd [35m$outputPath[0m/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuWminusTo2JJJ_QCD_LOO[16;1H_SM*
+hadd [35m$outputPath[0m/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuZTo2JJJ_QCD_LO_SM*
+hadd [35m$outputPath[0m/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JWminusToLNuJJ_QCD_LO_SS[19;1HM*[20;128H[K[20;128H32,1[10C48%[18;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[18;1Hhadd [35m$outputPath[0m/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JZTo2LJJ_QCD_LO_SM*
+hadd [35m$outputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_S[19;1H[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H33,1[10C51%[18;1H[34h[?25h[?25l[1;19r[1;1H[3M[1;20r[16;1Hhadd [35m$outputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SS[17;1HM*
+hadd [35m$outputPath[0m/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWplusTo2JJJ_QCD_LO_SM*[19;1Hhadd [35m$outputPath[0m/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuZTo2JJJ_QCD_LO_SM*[20;128H[K[20;128H35,1[10C57%[18;1H[34h[?25h[?25l[20;129H4[16;1H[34h[?25h[?25l[20;129H3[15;1H[34h[?25h[?25l[20;129H2[13;1H[34h[?25h[?25l[20;129H0[10;1H[34h[?25h[?25l[20;128H29[9;1H[34h[?25h[?25l[20;129H8[8;1H[34h[?25h[?25l[20;129H7[7;1H[34h[?25h[?25l[20;129H8[8;1H[34h[?25h[?25l[9;19r[9;1H[L[1;20r[8;1H[K[9;1H[34m##VBF_QCD[0m[20;128H[K[20;128H29,1[10C56%[9;1H[34h[?25h[?25l[20;128H30[10;1H[34h[?25h[?25l[11;19r[11;1H[L[1;20r[10;1H[K[11;1Hhadd [35m$outputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM*[20;128H[K[20;128H31,1[10C55%[11;1H[34h[?25h[?25l[20;129H2[12;1H[34h[?25h[?25l[20;129H3[14;1H[34h[?25h[?25l[20;129H4[15;1H[34h[?25h[?25l[1;19r[1;1H[7M[1;20r[13;1Hhadd [35m$outputPath[0m/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWplusTo2JJJ_QCD_LO_SM*[14;1Hhadd [35m$outputPath[0m/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuZTo2JJJ_QCD_LO_SM*
+hadd [35m$outputPath[0m/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/ZTo2LZTo2JJJ_QCD_LO_SM*
+[34m#SingleElectron[0m
+
+hadd [35m$outputPath[0m/SingleElectron.root [35m$inputPath[0m/SingleElectron*
+hadd [35m$outputPath[0m/SingleMuon.root [35m$inputPath[0m/SingleMuon*[20;128H[K[20;128H43,1[10C71%[19;1H[34h[?25h[?25l[1;19r[1;1H[9M[1;20r[12;1H[34m#W+Jets[0m
+hadd [35m$outputPath[0m/WJetsToLNu_HT_100To200_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_100To*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_200To400_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_200T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_400To600_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_400T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_600To800_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_600T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_800To1200_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_800T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_1200To2500_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_1200T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_2500ToInf_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_2500T*[20;128H[K[20;128H51,1[10C94%[18;1H[34h[?25h[?25l[1;19r[1;1H[3M[1;20r[19;1H[1m[34m~                                                                                                                                                [0m[20;128H[K[20;128H54,1[10CBot[18;1H[34h[?25h[?25l[20;129H3[17;1H[34h[?25h[?25l[20;129H2[16;1H[34h[?25h[?25l[20;128H48[12;1H[34h[?25h[?25l[20;129H6[10;1H[34h[?25h[?25l[20;129H5[9;1H[34h[?25h[?25l[20;128H37[1;1H[34h[?25h[?25l[1;19r[1;1H[5L[1;20r[1;1Hhadd [35m$outputPath[0m/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JWminusToLNuJJ_QCD_LO_SS[2;1HM*
+hadd [35m$outputPath[0m/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JZTo2LJJ_QCD_LO_SM*
+hadd [35m$outputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SS[5;1HM*[20;128H[K[20;128H34,1[10C89%[1;1H[34h[?25h[?25l[1;19r[1;1H[3L[1;20r[1;1Hhadd [35m$outputPath[0m/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuWminusTo2JJJ_QCD_LOO[2;1H_SM*
+hadd [35m$outputPath[0m/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuZTo2JJJ_QCD_LO_SM*[20;128H[K[20;128H32,1[10C81%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1Hhadd [35m$outputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM*[20;128H[K[20;128H31,1[10C78%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m##VBF_QCD[0m[20;128H[K[20;128H29,1[10C73%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[20;128H[K[20;128H28,1[10C71%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H27,1[10C68%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H26,1[10C65%[1;1H[34h[?25h[?25l[20;129H7[2;1H[34h[?25h[?25l[20;129H8[3;1H[34h[?25h[?25l[20;128H36[13;1H[34h[?25h[?25l[1;19r[1;1H[3M[1;20r[17;1Hhadd [35m$outputPath[0m/SingleElectron.root [35m$inputPath[0m/SingleElectron*
+hadd [35m$outputPath[0m/SingleMuon.root [35m$inputPath[0m/SingleMuon*[20;128H[K[20;128H44,1[10C73%[19;1H[34h[?25h[?25l[1;19r[1;1H[9M[1;20r[11;1H[34m#W+Jets[0m
+hadd [35m$outputPath[0m/WJetsToLNu_HT_100To200_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_100To*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_200To400_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_200T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_400To600_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_400T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_600To800_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_600T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_800To1200_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_800T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_1200To2500_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_1200T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_2500ToInf_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_2500T*[20;128H[K[20;128H53,1[10C97%[19;1H[34h[?25h[?25l[1;19r[1;1H[2M[1;20r[19;1H[1m[34m~                                                                                                                                                [0m[20;128H[K[20;128H54,1[10CBot[18;1H[34h[?25h[20;1H[K[18;1H[?25l[20;128H54,0-1[8CBot[18;1H[34h[?25h[?25l[20;128H[K[20;1H:[34h[?25hwq[?25l"hadd.sh" 54L, 4786C written
+[?1l>[34h[?25h[?1049l_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+Asar.root           README.md     [0m[01;34mdata[0m             [01;34minterface[0m    [01;32mrunjob.sh[0m    stub.jdl       test.root                 tosubmit2017.dat
+BuildFile.xml       Updated.root  [01;32mdocker_stderror[0m  [01;34mlog[0m          screenlog.0  [01;32msubmitjobs.sh[0m  tosubmit2016.dat
+May_2_submit_2.jdl  [01;34mbin[0m           hadd.sh          output.root  [01;34msrc[0m          test.dat       tosubmit2016_special.dat
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ mkdir [K[K[K[K[Kvi hadd.sh 
+[?1049h[?1h=[1;20r[34l[34h[?25h[23m[24m[0m[H[J[?25l[20;1H"hadd.sh" 54L, 4786C[1;1Hhadd [35m$outputPath[0m/WplusToLNuWplusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWplusTo2JJJ_QCD_LO_SM*[2;1Hhadd [35m$outputPath[0m/WplusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuZTo2JJJ_QCD_LO_SM*
+hadd [35m$outputPath[0m/ZTo2LZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/ZTo2LZTo2JJJ_QCD_LO_SM*
+[34m#SingleElectron[0m
+
+hadd [35m$outputPath[0m/SingleElectron.root [35m$inputPath[0m/SingleElectron*
+hadd [35m$outputPath[0m/SingleMuon.root [35m$inputPath[0m/SingleMuon*
+
+[34m#W+Jets[0m
+hadd [35m$outputPath[0m/WJetsToLNu_HT_100To200_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_100To*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_200To400_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_200T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_400To600_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_400T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_600To800_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_600T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_800To1200_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_800T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_1200To2500_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_1200T*
+hadd [35m$outputPath[0m/WJetsToLNu_HT_2500ToInf_13TeV.root [35m$inputPath[0m/WJetsToLNu_HT_2500T*
+
+
+[1m[34m~                                                                                                                                                [0m[20;128H54,0-1[8CBot[18;1H[34h[?25h[?25l[20;129H3[17;1H[34h[?25h[?25l[20;129H2,1  [16;1H[34h[?25h[?25l[20;129H1[15;1H[34h[?25h[?25l[20;129H0[14;1H[34h[?25h[?25l[20;128H49[13;1H[34h[?25h[?25l[20;129H8[12;1H[34h[?25h[?25l[20;129H7[11;1H[34h[?25h[?25l[20;129H6[10;1H[34h[?25h[?25l[20;129H5[9;1H[34h[?25h[?25l[20;129H4,0-1[8;1H[34h[?25h[?25l[20;129H3,1  [7;1H[34h[?25h[?25l[20;129H2[6;1H[34h[?25h[?25l[20;129H1,0-1[5;1H[34h[?25h[?25l[20;129H0,1  [4;1H[34h[?25h[?25l[20;128H39[3;1H[34h[?25h[?25l[20;129H8[2;1H[34h[?25h[?25l[20;129H7[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1Hhadd [35m$outputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusToLNuWminusTo2JJJ_QCD_LO_SS[2;1HM*[20;1H[K[20;128H36,1[10C97%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1Hhadd [35m$outputPath[0m/WplusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JZTo2LJJ_QCD_LO_SM*[20;128H[K[20;128H35,1[10C94%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1Hhadd [35m$outputPath[0m/WplusTo2JWminusToLNuJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WplusTo2JWminusToLNuJJ_QCD_LO_SS[2;1HM*[20;128H[K[20;128H34,1[10C89%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1Hhadd [35m$outputPath[0m/WminusToLNuZTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuZTo2JJJ_QCD_LO_SM*[20;128H[K[20;128H33,1[10C86%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1Hhadd [35m$outputPath[0m/WminusToLNuWminusTo2JJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusToLNuWminusTo2JJJ_QCD_LOO[2;1H_SM*[20;128H[K[20;128H32,1[10C81%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1Hhadd [35m$outputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root [35m$inputPath[0m/WminusTo2JZTo2LJJ_QCD_LO_SM*[20;128H[K[20;128H31,1[10C78%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[20;128H[K[20;128H30,0-1[8C76%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m##VBF_QCD[0m[20;128H[K[20;128H29,1[10C73%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[20;128H[K[20;128H28,0-1[8C71%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H27,1[10C68%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H26,1[10C65%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO__[2;1HaQGC*[0m[20;128H[K[20;128H25,1[10C61%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LL[2;1HO_aQGC*[0m[20;128H[K[20;128H24,1[10C57%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H23,1[10C55%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LL[2;1HO_aQGC*[0m[20;128H[K[20;128H22,1[10C52%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H21,1[10C50%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWKK[2;1H_LO_aQGC*[0m[20;128H[K[20;128H20,1[10C47%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_aQGC*[0m[20;128H[K[20;128H19,1[10C45%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[19;1H[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H18,0-1[8C42%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m##VBF_aQGC[0m[20;128H[K[20;128H17,1[10C41%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[20;128H[K[20;128H16,0-1[8C38%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/ZTo2LZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/ZTo2LZTo2JJJ_EWK_LO_SM*[0m[20;128H[K[20;128H15,1[10C35%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuZTo2JJJ_EWK_LO_SM*[0m[20;128H[K[20;128H14,1[10C33%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWplusTo2JJJ_EWK_LO_SMM[2;1H*[0m[20;128H[K[20;128H13,1[10C30%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WplusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusToLNuWminusTo2JJJ_EWK_LO__[2;1HSM*[0m[19;1H[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H12,1[10C26%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WplusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JZTo2LJJ_EWK_LO_SM*[0m[20;128H[K[20;128H11,1[10C25%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WplusTo2JWminusToLNuJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WplusTo2JWminusToLNuJJ_EWK_LO__[2;1HSM*[0m[20;128H[K[20;128H10,1[10C22%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WminusToLNuZTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuZTo2JJJ_EWK_LO_SM*[0m[20;128H[K[20;128H9,1[11C20%[1;1H[34h[?25h[?25l[1;19r[1;1H[2L[1;20r[1;1H[34m#hadd $outputPath/WminusToLNuWminusTo2JJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusToLNuWminusTo2JJJ_EWK_LL[2;1HO_SM*[0m[20;128H[K[20;128H8,1[11C17%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#hadd $outputPath/WminusTo2JZTo2LJJ_EWK_LO_SM_MJJ100PTJ10_TuneCUETP8M1_13TeV-madgraph-pythia8.root $inputPath/WminusTo2JZTo2LJJ_EWK_LO_SM*[0m[20;128H[K[20;128H7,1[11C15%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m##VBF_EWK[0m[19;1H[1m[34m@                                                                                                                                                [0m[20;128H[K[20;128H6,1[11C12%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[33mrm[0m ouputPath/*[20;128H[K[20;128H5,1[11C10%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[36moutputPath[0m=[35m$inputPath[0m/[35m$outputFolder[0m[20;128H[K[20;128H4,1[12C7%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[36moutputFolder[0m=Hadd_Files_2016/[20;128H[K[20;128H3,1[12C5%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[36minputPath[0m=/eos/uscms/store/user/asahmed/WV_2016_flatntuples[20;128H[K[20;128H2,1[12C2%[1;1H[34h[?25h[?25l[1;19r[1;1H[L[1;20r[1;1H[34m#!bin/bash[0m[20;128H[K[20;128H1,1[11CTop[1;1H[34h[?25h[?25l[20;128H[K[20;1H:[34h[?25hwq[?25l"hadd.sh" 54L, 4786C written
+[?1l>[34h[?25h[?1049l_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ mkdir To_Hadd_Flat_nTuples
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+Asar.root           README.md             [0m[01;34mbin[0m              hadd.sh    output.root  [01;34msrc[0m            test.dat          tosubmit2016_special.dat
+BuildFile.xml       [01;34mTo_Hadd_Flat_nTuples[0m  [01;34mdata[0m             [01;34minterface[0m  [01;32mrunjob.sh[0m    stub.jdl       test.root         tosubmit2017.dat
+May_2_submit_2.jdl  Updated.root          [01;32mdocker_stderror[0m  [01;34mlog[0m        screenlog.0  [01;32msubmitjobs.sh[0m  tosubmit2016.dat
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ mv hadd.sh To_Hadd_Flat_nTuples/
+_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ ls
+Asar.root           README.md             [0m[01;34mbin[0m              [01;34minterface[0m    [01;32mrunjob.sh[0m    stub.jdl       test.root                 tosubmit2017.dat
+BuildFile.xml       [01;34mTo_Hadd_Flat_nTuples[0m  [01;34mdata[0m             [01;34mlog[0m          screenlog.0  [01;32msubmitjobs.sh[0m  tosubmit2016.dat
+May_2_submit_2.jdl  Updated.root          [01;32mdocker_stderror[0m  output.root  [01;34msrc[0m          test.dat       tosubmit2016_special.dat
+[m_asahmed@cmslpc29:Selection\[asahmed@cmslpc29 Selection]$ cd To_Hadd_Flat_nTuples/
+_asahmed@cmslpc29:To_Hadd_Flat_nTuples\[asahmed@cmslpc29 To_Hadd_Flat_nTuples]$ ls
+hadd.sh
+_asahmed@cmslpc29:To_Hadd_Flat_nTuples\[asahmed@cmslpc29 To_Hadd_Flat_nTuples]$ mv hadd.sh hadd.sh_.shn.shT.shu.shp.shl.she.shs.sh
+_asahmed@cmslpc29:To_Hadd_Flat_nTuples\[asahmed@cmslpc29 To_Hadd_Flat_nTuples]$ ls
+hadd_nTuples.sh
+_asahmed@cmslpc29:To_Hadd_Flat_nTuples\[asahmed@cmslpc29 To_Hadd_Flat_nTuples]$ 
